@@ -1,0 +1,2057 @@
+17:22:11 (lmgrd) -----------------------------------------------
+17:22:11 (lmgrd)   Please Note:
+17:22:11 (lmgrd) 
+17:22:11 (lmgrd)   This log is intended for debug purposes only.
+17:22:11 (lmgrd)   In order to capture accurate license
+17:22:11 (lmgrd)   usage data into an organized repository,
+17:22:11 (lmgrd)   please enable report logging. Use Flexera Software LLC's
+17:22:11 (lmgrd)   software license administration  solution,
+17:22:11 (lmgrd)   FlexNet Manager, to  readily gain visibility
+17:22:11 (lmgrd)   into license usage data and to create
+17:22:11 (lmgrd)   insightful reports on critical information like
+17:22:11 (lmgrd)   license availability and usage. FlexNet Manager
+17:22:11 (lmgrd)   can be fully automated to run these reports on
+17:22:11 (lmgrd)   schedule and can be used to track license
+17:22:11 (lmgrd)   servers and usage across a heterogeneous
+17:22:11 (lmgrd)   network of servers including Windows NT, Linux
+17:22:11 (lmgrd)   and UNIX.
+17:22:11 (lmgrd) 
+17:22:11 (lmgrd) -----------------------------------------------
+17:22:11 (lmgrd) 
+17:22:11 (lmgrd) 
+17:22:11 (lmgrd) Server's System Date and Time: Sun Jun 02 2024 17:22:11 India Standard Time
+17:22:11 (lmgrd) pid 8004
+17:22:11 (lmgrd) SLOG: Summary LOG statistics is enabled.
+17:22:11 (lmgrd) Done rereading
+17:22:11 (lmgrd) FlexNet Licensing (v11.14.1.3 build 212549 i86_n3) started on LAPTOP-9APT1262 (IBM PC) (6/2/2024)
+17:22:11 (lmgrd) Copyright (c) 1988-2017 Flexera Software LLC. All Rights Reserved.
+17:22:11 (lmgrd) World Wide Web:  http://www.flexerasoftware.com
+17:22:11 (lmgrd) License file(s): C:\SolidWorks_Flexnet_Server\sw_d_SSQ.lic
+17:22:11 (lmgrd) lmgrd tcp-port 25734
+17:22:11 (lmgrd) (@lmgrd-SLOG@) ===============================================
+17:22:11 (lmgrd) (@lmgrd-SLOG@) === LMGRD ===
+17:22:11 (lmgrd) (@lmgrd-SLOG@) Start-Date: Sun Jun 02 2024 17:22:11 India Standard Time
+17:22:11 (lmgrd) (@lmgrd-SLOG@) PID: 8004
+17:22:11 (lmgrd) (@lmgrd-SLOG@) LMGRD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+17:22:11 (lmgrd) (@lmgrd-SLOG@) 
+17:22:11 (lmgrd) (@lmgrd-SLOG@) === Network Info ===
+17:22:11 (lmgrd) (@lmgrd-SLOG@) Listening port: 25734
+17:22:11 (lmgrd) (@lmgrd-SLOG@) 
+17:22:11 (lmgrd) (@lmgrd-SLOG@) === Startup Info ===
+17:22:11 (lmgrd) (@lmgrd-SLOG@) Is LS run as a service: Yes
+17:22:11 (lmgrd) (@lmgrd-SLOG@) Server Configuration: Single Server
+17:22:11 (lmgrd) (@lmgrd-SLOG@) Command-line options used at LS startup: -c C:\SolidWorks_Flexnet_Server\sw_d_SSQ.lic -l C:\SolidWorks_Flexnet_Server\sw_d_SSQ.log -z -s 
+17:22:11 (lmgrd) (@lmgrd-SLOG@) License file(s) used:  C:\SolidWorks_Flexnet_Server\sw_d_SSQ.lic
+17:22:11 (lmgrd) (@lmgrd-SLOG@) ===============================================
+17:22:11 (lmgrd) SLOG: FNPLS-INTERNAL-VL1-4096
+17:22:11 (lmgrd) Starting vendor daemons ... 
+17:22:11 (lmgrd) Started SW_D (pid 8396)
+17:22:11 (SW_D) Unable to initialize access to trusted storage: 1
+17:22:11 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+17:22:12 (SW_D) SLOG: Summary LOG statistics is enabled.
+17:22:12 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+17:22:13 (SW_D) SLOG: VM Status: 255
+17:22:13 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+17:22:13 (SW_D) swoffice	swofficepro	harnessing	
+17:22:13 (SW_D) photoworks	featureworks	piping		
+17:22:13 (SW_D) animator	toolbox		utilities	
+17:22:13 (SW_D) swofficepremium taskscheduler	dwgeditor	
+17:22:13 (SW_D) swift		designchecker	scanto3d	
+17:22:13 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+17:22:13 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+17:22:13 (SW_D) swsustainability catiatoswtrans	swcosting	
+17:22:13 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+17:22:13 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+17:22:13 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+17:22:13 (SW_D) swlivereporteditor edrw		edrwcore	
+17:22:13 (SW_D) swmbd		swmbd_std	elec2dcore	
+17:22:13 (SW_D) elec2dstd	elec2d		elec3d		
+17:22:13 (SW_D) elecpro		pdmworks	pdmworks_sa	
+17:22:13 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+17:22:13 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+17:22:13 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+17:22:13 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+17:22:13 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+17:22:13 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+17:22:13 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+17:22:13 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+17:22:13 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+17:22:13 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+17:22:13 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+17:22:13 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+17:22:13 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+17:22:13 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+17:22:13 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+17:22:13 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+17:22:13 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+17:22:13 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+17:22:13 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+17:22:13 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+17:22:13 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+17:22:13 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+17:22:13 (SW_D) plastics	plastics_pro	plastics_premium 
+17:22:13 (SW_D) plastics_advanced draftsight	draftsightapi	
+17:22:13 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+17:22:13 (SW_D) draftsightdeveloper draftsightpro	visu		
+17:22:13 (SW_D) visupro		visupowerboost	pcb		
+17:22:13 (SW_D) pcbpro		pcbaltium	camassemblies	
+17:22:13 (SW_D) camturning	camconfigs	camadaptive	
+17:22:13 (SW_D) camnceditor	cammillindexing camposting	
+17:22:13 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+17:22:13 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+17:22:13 (SW_D) swepdm_web	swepdm_processor swepm_web	
+17:22:13 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+17:22:13 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+17:22:13 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+17:22:13 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+17:22:13 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+17:22:13 (SW_D) swmechatronicsstd visuboost	
+17:22:13 (SW_D) EXTERNAL FILTERS are OFF
+17:22:13 (lmgrd) SW_D using TCP-port 49674
+17:22:13 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+17:22:13 (SW_D) SLOG: TS update poll interval is 600 seconds.
+17:22:13 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+17:22:13 (SW_D) (@SW_D-SLOG@) ===============================================
+17:22:13 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+17:22:13 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+17:22:13 (SW_D) (@SW_D-SLOG@) Start-Date: Sun Jun 02 2024 17:22:13 India Standard Time
+17:22:13 (SW_D) (@SW_D-SLOG@) PID: 8396
+17:22:13 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+17:22:13 (SW_D) (@SW_D-SLOG@) 
+17:22:13 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+17:22:13 (SW_D) (@SW_D-SLOG@) Options file used: None
+17:22:13 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+17:22:13 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+17:22:13 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+17:22:13 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 0
+17:22:13 (SW_D) (@SW_D-SLOG@) 
+17:22:13 (SW_D) (@SW_D-SLOG@) === Network Info ===
+17:22:13 (SW_D) (@SW_D-SLOG@) Listening port: 49674
+17:22:13 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+17:22:13 (SW_D) (@SW_D-SLOG@) 
+17:22:13 (SW_D) (@SW_D-SLOG@) === Host Info ===
+17:22:13 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+17:22:13 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+17:22:13 (SW_D) (@SW_D-SLOG@) ===============================================
+17:22:13 (SW_D) TCP_NODELAY NOT enabled
+17:22:14 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+21:02:51 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+21:02:51 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 8193 seconds.
+21:02:51 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+21:02:51 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  (SHUTDOWN)
+21:02:56 (lmgrd) SW_D exited with status 28 (Communications error)
+21:02:56 (lmgrd) Since this is an unknown status, license server 
+21:02:56 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+21:02:57 (lmgrd) REStarted SW_D (pid 18088)
+21:02:57 (SW_D) Unable to initialize access to trusted storage: 1
+21:02:57 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+21:02:57 (SW_D) SLOG: Summary LOG statistics is enabled.
+21:02:57 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+21:02:57 (SW_D) SLOG: VM Status: 255
+21:02:57 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+21:02:57 (SW_D) swoffice	swofficepro	harnessing	
+21:02:57 (SW_D) photoworks	featureworks	piping		
+21:02:57 (SW_D) animator	toolbox		utilities	
+21:02:57 (SW_D) swofficepremium taskscheduler	dwgeditor	
+21:02:57 (SW_D) swift		designchecker	scanto3d	
+21:02:57 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+21:02:57 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+21:02:57 (SW_D) swsustainability catiatoswtrans	swcosting	
+21:02:57 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+21:02:57 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+21:02:57 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+21:02:57 (SW_D) swlivereporteditor edrw		edrwcore	
+21:02:57 (SW_D) swmbd		swmbd_std	elec2dcore	
+21:02:57 (SW_D) elec2dstd	elec2d		elec3d		
+21:02:57 (SW_D) elecpro		pdmworks	pdmworks_sa	
+21:02:57 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+21:02:57 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+21:02:57 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+21:02:57 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+21:02:57 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+21:02:57 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+21:02:57 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+21:02:57 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+21:02:57 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+21:02:57 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+21:02:57 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+21:02:57 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+21:02:57 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+21:02:57 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+21:02:57 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+21:02:57 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+21:02:57 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+21:02:57 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+21:02:57 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+21:02:57 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+21:02:57 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+21:02:57 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+21:02:57 (SW_D) plastics	plastics_pro	plastics_premium 
+21:02:57 (SW_D) plastics_advanced draftsight	draftsightapi	
+21:02:57 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+21:02:57 (SW_D) draftsightdeveloper draftsightpro	visu		
+21:02:57 (SW_D) visupro		visupowerboost	pcb		
+21:02:57 (SW_D) pcbpro		pcbaltium	camassemblies	
+21:02:57 (SW_D) camturning	camconfigs	camadaptive	
+21:02:57 (SW_D) camnceditor	cammillindexing camposting	
+21:02:57 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+21:02:57 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+21:02:57 (SW_D) swepdm_web	swepdm_processor swepm_web	
+21:02:57 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+21:02:57 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+21:02:57 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+21:02:57 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+21:02:57 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+21:02:57 (SW_D) swmechatronicsstd visuboost	
+21:02:57 (SW_D) EXTERNAL FILTERS are OFF
+21:02:57 (lmgrd) SW_D using TCP-port 52568
+21:02:57 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+21:02:57 (SW_D) SLOG: TS update poll interval is 600 seconds.
+21:02:57 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+21:02:57 (SW_D) (@SW_D-SLOG@) ===============================================
+21:02:57 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+21:02:57 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+21:02:57 (SW_D) (@SW_D-SLOG@) Start-Date: Sun Jun 02 2024 21:02:57 India Standard Time
+21:02:57 (SW_D) (@SW_D-SLOG@) PID: 18088
+21:02:57 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+21:02:57 (SW_D) (@SW_D-SLOG@) 
+21:02:57 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+21:02:57 (SW_D) (@SW_D-SLOG@) Options file used: None
+21:02:57 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+21:02:57 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+21:02:57 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+21:02:57 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 1
+21:02:57 (SW_D) (@SW_D-SLOG@) 
+21:02:57 (SW_D) (@SW_D-SLOG@) === Network Info ===
+21:02:57 (SW_D) (@SW_D-SLOG@) Listening port: 52568
+21:02:57 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+21:02:57 (SW_D) (@SW_D-SLOG@) 
+21:02:57 (SW_D) (@SW_D-SLOG@) === Host Info ===
+21:02:57 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+21:02:57 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+21:02:57 (SW_D) (@SW_D-SLOG@) ===============================================
+21:06:16 (SW_D) TCP_NODELAY NOT enabled
+21:06:16 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+10:35:45 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  
+10:35:45 (SW_D) (@SW_D-SLOG@) ===============================================
+10:35:45 (SW_D) (@SW_D-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+10:35:45 (SW_D) (@SW_D-SLOG@) Time: Mon Jun 03 2024 10:35:45 India Standard Time
+10:35:45 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+10:35:45 (SW_D) (@SW_D-SLOG@) 00000000 ms at Sun Jun 02 2024 21:32:17 India Standard Time,#3,(5192K),(SYSTEM,LAPTOP-9APT1262,676)
+10:35:45 (SW_D) (@SW_D-SLOG@) 00000000 ms at Sun Jun 02 2024 21:30:17 India Standard Time,#3,(5192K),(SYSTEM,LAPTOP-9APT1262,676)
+10:35:45 (SW_D) (@SW_D-SLOG@) 00000000 ms at Sun Jun 02 2024 21:28:17 India Standard Time,#3,(5192K),(SYSTEM,LAPTOP-9APT1262,676)
+10:35:45 (SW_D) (@SW_D-SLOG@) 00000000 ms at Sun Jun 02 2024 21:26:17 India Standard Time,#3,(5192K),(SYSTEM,LAPTOP-9APT1262,676)
+10:35:45 (SW_D) (@SW_D-SLOG@) 00000000 ms at Sun Jun 02 2024 21:24:17 India Standard Time,#3,(5192K),(SYSTEM,LAPTOP-9APT1262,676)
+10:35:45 (SW_D) (@SW_D-SLOG@) 00000000 ms at Sun Jun 02 2024 21:22:17 India Standard Time,#3,(5192K),(SYSTEM,LAPTOP-9APT1262,676)
+10:35:45 (SW_D) (@SW_D-SLOG@) 00000000 ms at Sun Jun 02 2024 21:20:17 India Standard Time,#3,(5192K),(SYSTEM,LAPTOP-9APT1262,676)
+10:35:45 (SW_D) (@SW_D-SLOG@) 00000000 ms at Sun Jun 02 2024 21:18:17 India Standard Time,#3,(5192K),(SYSTEM,LAPTOP-9APT1262,676)
+10:35:45 (SW_D) (@SW_D-SLOG@) 00000000 ms at Sun Jun 02 2024 21:16:16 India Standard Time,#3,(5192K),(SYSTEM,LAPTOP-9APT1262,676)
+10:35:45 (SW_D) (@SW_D-SLOG@) 00000000 ms at Sun Jun 02 2024 21:14:16 India Standard Time,#3,(5192K),(SYSTEM,LAPTOP-9APT1262,676)
+10:35:45 (SW_D) (@SW_D-SLOG@) 
+10:35:45 (SW_D) (@SW_D-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+10:35:45 (SW_D) (@SW_D-SLOG@) Time: Mon Jun 03 2024 10:35:45 India Standard Time
+10:35:45 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+10:35:45 (SW_D) (@SW_D-SLOG@) 
+10:35:45 (SW_D) (@SW_D-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+10:35:45 (SW_D) (@SW_D-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+10:35:45 (SW_D) (@SW_D-SLOG@) Time: Mon Jun 03 2024 10:35:45 India Standard Time
+10:35:45 (SW_D) (@SW_D-SLOG@) In-house operation time, when, #concurrent clients
+10:35:45 (SW_D) (@SW_D-SLOG@) 
+10:35:45 (SW_D) (@SW_D-SLOG@) === Active Connections Info ===
+10:35:45 (SW_D) (@SW_D-SLOG@) Peak active connections #3 attempted at Sun Jun 02 2024 21:06:16 India Standard Time
+10:35:45 (SW_D) (@SW_D-SLOG@) 
+10:35:45 (SW_D) (@SW_D-SLOG@) === Memory Usage Info ===
+10:35:45 (SW_D) (@SW_D-SLOG@) Peak private bytes 5508K attempted at Sun Jun 02 2024 21:06:16 India Standard Time
+10:35:45 (SW_D) (@SW_D-SLOG@) ===============================================
+10:35:45 (SW_D) TIMESTAMP 6/3/2024
+10:35:45 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+10:35:45 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 46903 seconds.
+10:35:45 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+10:35:45 (lmgrd) TIMESTAMP 6/3/2024
+10:35:50 (lmgrd) SW_D exited with status 28 (Communications error)
+10:35:50 (lmgrd) Since this is an unknown status, license server 
+10:35:50 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+10:35:50 (lmgrd) REStarted SW_D (pid 21436)
+10:35:50 (SW_D) Unable to initialize access to trusted storage: 1
+10:35:50 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+10:35:50 (SW_D) SLOG: Summary LOG statistics is enabled.
+10:35:50 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+10:35:50 (SW_D) SLOG: VM Status: 255
+10:35:50 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+10:35:50 (SW_D) swoffice	swofficepro	harnessing	
+10:35:50 (SW_D) photoworks	featureworks	piping		
+10:35:50 (SW_D) animator	toolbox		utilities	
+10:35:50 (SW_D) swofficepremium taskscheduler	dwgeditor	
+10:35:50 (SW_D) swift		designchecker	scanto3d	
+10:35:50 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+10:35:50 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+10:35:50 (SW_D) swsustainability catiatoswtrans	swcosting	
+10:35:50 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+10:35:50 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+10:35:50 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+10:35:50 (SW_D) swlivereporteditor edrw		edrwcore	
+10:35:50 (SW_D) swmbd		swmbd_std	elec2dcore	
+10:35:50 (SW_D) elec2dstd	elec2d		elec3d		
+10:35:50 (SW_D) elecpro		pdmworks	pdmworks_sa	
+10:35:50 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+10:35:50 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+10:35:50 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+10:35:50 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+10:35:50 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+10:35:50 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+10:35:50 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+10:35:50 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+10:35:50 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+10:35:50 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+10:35:50 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+10:35:50 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+10:35:50 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+10:35:50 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+10:35:50 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+10:35:50 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+10:35:50 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+10:35:50 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+10:35:50 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+10:35:50 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+10:35:50 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+10:35:50 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+10:35:50 (SW_D) plastics	plastics_pro	plastics_premium 
+10:35:50 (SW_D) plastics_advanced draftsight	draftsightapi	
+10:35:50 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+10:35:50 (SW_D) draftsightdeveloper draftsightpro	visu		
+10:35:50 (SW_D) visupro		visupowerboost	pcb		
+10:35:50 (SW_D) pcbpro		pcbaltium	camassemblies	
+10:35:50 (SW_D) camturning	camconfigs	camadaptive	
+10:35:50 (SW_D) camnceditor	cammillindexing camposting	
+10:35:50 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+10:35:50 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+10:35:50 (SW_D) swepdm_web	swepdm_processor swepm_web	
+10:35:50 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+10:35:50 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+10:35:50 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+10:35:50 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+10:35:50 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+10:35:50 (SW_D) swmechatronicsstd visuboost	
+10:35:50 (SW_D) EXTERNAL FILTERS are OFF
+10:35:50 (lmgrd) SW_D using TCP-port 53411
+10:35:50 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+10:35:50 (SW_D) SLOG: TS update poll interval is 600 seconds.
+10:35:50 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+10:35:50 (SW_D) (@SW_D-SLOG@) ===============================================
+10:35:50 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+10:35:50 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+10:35:50 (SW_D) (@SW_D-SLOG@) Start-Date: Mon Jun 03 2024 10:35:50 India Standard Time
+10:35:50 (SW_D) (@SW_D-SLOG@) PID: 21436
+10:35:50 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+10:35:50 (SW_D) (@SW_D-SLOG@) 
+10:35:50 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+10:35:50 (SW_D) (@SW_D-SLOG@) Options file used: None
+10:35:50 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+10:35:50 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+10:35:50 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+10:35:50 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 2
+10:35:50 (SW_D) (@SW_D-SLOG@) 
+10:35:50 (SW_D) (@SW_D-SLOG@) === Network Info ===
+10:35:50 (SW_D) (@SW_D-SLOG@) Listening port: 53411
+10:35:50 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+10:35:50 (SW_D) (@SW_D-SLOG@) 
+10:35:50 (SW_D) (@SW_D-SLOG@) === Host Info ===
+10:35:50 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+10:35:50 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+10:35:50 (SW_D) (@SW_D-SLOG@) ===============================================
+10:35:51 (SW_D) TCP_NODELAY NOT enabled
+10:35:51 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+10:59:44 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+10:59:44 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 710 seconds.
+10:59:44 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+10:59:44 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  (SHUTDOWN)
+10:59:50 (lmgrd) SW_D exited with status 28 (Communications error)
+10:59:50 (lmgrd) Since this is an unknown status, license server 
+10:59:50 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+10:59:50 (lmgrd) REStarted SW_D (pid 692)
+10:59:50 (SW_D) Unable to initialize access to trusted storage: 1
+10:59:50 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+10:59:50 (SW_D) SLOG: Summary LOG statistics is enabled.
+10:59:50 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+10:59:50 (SW_D) SLOG: VM Status: 255
+10:59:50 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+10:59:50 (SW_D) swoffice	swofficepro	harnessing	
+10:59:50 (SW_D) photoworks	featureworks	piping		
+10:59:50 (SW_D) animator	toolbox		utilities	
+10:59:50 (SW_D) swofficepremium taskscheduler	dwgeditor	
+10:59:50 (SW_D) swift		designchecker	scanto3d	
+10:59:50 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+10:59:50 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+10:59:50 (SW_D) swsustainability catiatoswtrans	swcosting	
+10:59:50 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+10:59:50 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+10:59:50 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+10:59:50 (SW_D) swlivereporteditor edrw		edrwcore	
+10:59:50 (SW_D) swmbd		swmbd_std	elec2dcore	
+10:59:50 (SW_D) elec2dstd	elec2d		elec3d		
+10:59:50 (SW_D) elecpro		pdmworks	pdmworks_sa	
+10:59:50 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+10:59:50 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+10:59:50 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+10:59:50 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+10:59:50 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+10:59:50 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+10:59:50 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+10:59:50 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+10:59:50 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+10:59:50 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+10:59:50 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+10:59:50 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+10:59:50 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+10:59:50 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+10:59:50 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+10:59:50 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+10:59:50 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+10:59:50 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+10:59:50 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+10:59:50 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+10:59:50 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+10:59:50 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+10:59:50 (SW_D) plastics	plastics_pro	plastics_premium 
+10:59:50 (SW_D) plastics_advanced draftsight	draftsightapi	
+10:59:50 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+10:59:50 (SW_D) draftsightdeveloper draftsightpro	visu		
+10:59:50 (SW_D) visupro		visupowerboost	pcb		
+10:59:50 (SW_D) pcbpro		pcbaltium	camassemblies	
+10:59:50 (SW_D) camturning	camconfigs	camadaptive	
+10:59:50 (SW_D) camnceditor	cammillindexing camposting	
+10:59:50 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+10:59:50 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+10:59:50 (SW_D) swepdm_web	swepdm_processor swepm_web	
+10:59:50 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+10:59:50 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+10:59:50 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+10:59:50 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+10:59:50 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+10:59:50 (SW_D) swmechatronicsstd visuboost	
+10:59:50 (SW_D) EXTERNAL FILTERS are OFF
+10:59:50 (lmgrd) SW_D using TCP-port 54060
+10:59:50 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+10:59:50 (SW_D) SLOG: TS update poll interval is 600 seconds.
+10:59:50 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+10:59:50 (SW_D) (@SW_D-SLOG@) ===============================================
+10:59:50 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+10:59:50 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+10:59:50 (SW_D) (@SW_D-SLOG@) Start-Date: Mon Jun 03 2024 10:59:50 India Standard Time
+10:59:50 (SW_D) (@SW_D-SLOG@) PID: 692
+10:59:50 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+10:59:50 (SW_D) (@SW_D-SLOG@) 
+10:59:50 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+10:59:50 (SW_D) (@SW_D-SLOG@) Options file used: None
+10:59:50 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+10:59:50 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+10:59:50 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+10:59:50 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 3
+10:59:50 (SW_D) (@SW_D-SLOG@) 
+10:59:50 (SW_D) (@SW_D-SLOG@) === Network Info ===
+10:59:50 (SW_D) (@SW_D-SLOG@) Listening port: 54060
+10:59:50 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+10:59:50 (SW_D) (@SW_D-SLOG@) 
+10:59:50 (SW_D) (@SW_D-SLOG@) === Host Info ===
+10:59:50 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+10:59:50 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+10:59:50 (SW_D) (@SW_D-SLOG@) ===============================================
+11:02:59 (SW_D) TCP_NODELAY NOT enabled
+11:03:00 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+13:11:39 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+13:11:39 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 3229 seconds.
+13:11:39 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+13:11:39 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  (SHUTDOWN)
+13:11:44 (lmgrd) SW_D exited with status 28 (Communications error)
+13:11:44 (lmgrd) Since this is an unknown status, license server 
+13:11:44 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+13:11:44 (lmgrd) REStarted SW_D (pid 2008)
+13:11:44 (SW_D) Unable to initialize access to trusted storage: 1
+13:11:44 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+13:11:44 (SW_D) SLOG: Summary LOG statistics is enabled.
+13:11:44 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+13:11:44 (SW_D) SLOG: VM Status: 255
+13:11:44 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+13:11:44 (SW_D) swoffice	swofficepro	harnessing	
+13:11:44 (SW_D) photoworks	featureworks	piping		
+13:11:44 (SW_D) animator	toolbox		utilities	
+13:11:44 (SW_D) swofficepremium taskscheduler	dwgeditor	
+13:11:44 (SW_D) swift		designchecker	scanto3d	
+13:11:44 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+13:11:44 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+13:11:44 (SW_D) swsustainability catiatoswtrans	swcosting	
+13:11:44 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+13:11:44 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+13:11:44 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+13:11:44 (SW_D) swlivereporteditor edrw		edrwcore	
+13:11:44 (SW_D) swmbd		swmbd_std	elec2dcore	
+13:11:44 (SW_D) elec2dstd	elec2d		elec3d		
+13:11:44 (SW_D) elecpro		pdmworks	pdmworks_sa	
+13:11:44 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+13:11:44 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+13:11:44 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+13:11:44 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+13:11:44 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+13:11:44 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+13:11:44 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+13:11:45 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+13:11:45 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+13:11:45 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+13:11:45 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+13:11:45 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+13:11:45 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+13:11:45 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+13:11:45 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+13:11:45 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+13:11:45 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+13:11:45 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+13:11:45 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+13:11:45 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+13:11:45 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+13:11:45 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+13:11:45 (SW_D) plastics	plastics_pro	plastics_premium 
+13:11:45 (SW_D) plastics_advanced draftsight	draftsightapi	
+13:11:45 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+13:11:45 (SW_D) draftsightdeveloper draftsightpro	visu		
+13:11:45 (SW_D) visupro		visupowerboost	pcb		
+13:11:45 (SW_D) pcbpro		pcbaltium	camassemblies	
+13:11:45 (SW_D) camturning	camconfigs	camadaptive	
+13:11:45 (SW_D) camnceditor	cammillindexing camposting	
+13:11:45 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+13:11:45 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+13:11:45 (SW_D) swepdm_web	swepdm_processor swepm_web	
+13:11:45 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+13:11:45 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+13:11:45 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+13:11:45 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+13:11:45 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+13:11:45 (SW_D) swmechatronicsstd visuboost	
+13:11:45 (SW_D) EXTERNAL FILTERS are OFF
+13:11:45 (lmgrd) SW_D using TCP-port 56914
+13:11:45 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+13:11:45 (SW_D) SLOG: TS update poll interval is 600 seconds.
+13:11:45 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+13:11:45 (SW_D) (@SW_D-SLOG@) ===============================================
+13:11:45 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+13:11:45 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+13:11:45 (SW_D) (@SW_D-SLOG@) Start-Date: Mon Jun 03 2024 13:11:45 India Standard Time
+13:11:45 (SW_D) (@SW_D-SLOG@) PID: 2008
+13:11:45 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+13:11:45 (SW_D) (@SW_D-SLOG@) 
+13:11:45 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+13:11:45 (SW_D) (@SW_D-SLOG@) Options file used: None
+13:11:45 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+13:11:45 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+13:11:45 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+13:11:45 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 4
+13:11:45 (SW_D) (@SW_D-SLOG@) 
+13:11:45 (SW_D) (@SW_D-SLOG@) === Network Info ===
+13:11:45 (SW_D) (@SW_D-SLOG@) Listening port: 56914
+13:11:45 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+13:11:45 (SW_D) (@SW_D-SLOG@) 
+13:11:45 (SW_D) (@SW_D-SLOG@) === Host Info ===
+13:11:45 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+13:11:45 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+13:11:45 (SW_D) (@SW_D-SLOG@) ===============================================
+13:14:04 (SW_D) TCP_NODELAY NOT enabled
+13:14:04 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+15:23:53 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  
+15:23:53 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+15:23:53 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 5819 seconds.
+15:23:53 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+15:23:58 (lmgrd) SW_D exited with status 28 (Communications error)
+15:23:58 (lmgrd) Since this is an unknown status, license server 
+15:23:58 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+15:23:59 (lmgrd) REStarted SW_D (pid 20208)
+15:23:59 (SW_D) Unable to initialize access to trusted storage: 1
+15:23:59 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+15:23:59 (SW_D) SLOG: Summary LOG statistics is enabled.
+15:23:59 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+15:23:59 (SW_D) SLOG: VM Status: 255
+15:23:59 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+15:23:59 (SW_D) swoffice	swofficepro	harnessing	
+15:23:59 (SW_D) photoworks	featureworks	piping		
+15:23:59 (SW_D) animator	toolbox		utilities	
+15:23:59 (SW_D) swofficepremium taskscheduler	dwgeditor	
+15:23:59 (SW_D) swift		designchecker	scanto3d	
+15:23:59 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+15:23:59 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+15:23:59 (SW_D) swsustainability catiatoswtrans	swcosting	
+15:23:59 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+15:23:59 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+15:23:59 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+15:23:59 (SW_D) swlivereporteditor edrw		edrwcore	
+15:23:59 (SW_D) swmbd		swmbd_std	elec2dcore	
+15:23:59 (SW_D) elec2dstd	elec2d		elec3d		
+15:23:59 (SW_D) elecpro		pdmworks	pdmworks_sa	
+15:23:59 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+15:23:59 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+15:23:59 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+15:23:59 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+15:23:59 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+15:23:59 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+15:23:59 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+15:23:59 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+15:23:59 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+15:23:59 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+15:23:59 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+15:23:59 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+15:23:59 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+15:23:59 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+15:23:59 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+15:23:59 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+15:23:59 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+15:23:59 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+15:23:59 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+15:23:59 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+15:23:59 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+15:23:59 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+15:23:59 (SW_D) plastics	plastics_pro	plastics_premium 
+15:23:59 (SW_D) plastics_advanced draftsight	draftsightapi	
+15:23:59 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+15:23:59 (SW_D) draftsightdeveloper draftsightpro	visu		
+15:23:59 (SW_D) visupro		visupowerboost	pcb		
+15:23:59 (SW_D) pcbpro		pcbaltium	camassemblies	
+15:23:59 (SW_D) camturning	camconfigs	camadaptive	
+15:23:59 (SW_D) camnceditor	cammillindexing camposting	
+15:23:59 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+15:23:59 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+15:23:59 (SW_D) swepdm_web	swepdm_processor swepm_web	
+15:23:59 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+15:23:59 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+15:23:59 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+15:23:59 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+15:23:59 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+15:23:59 (SW_D) swmechatronicsstd visuboost	
+15:23:59 (SW_D) EXTERNAL FILTERS are OFF
+15:23:59 (lmgrd) SW_D using TCP-port 58267
+15:23:59 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+15:23:59 (SW_D) SLOG: TS update poll interval is 600 seconds.
+15:23:59 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+15:23:59 (SW_D) (@SW_D-SLOG@) ===============================================
+15:23:59 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+15:23:59 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+15:23:59 (SW_D) (@SW_D-SLOG@) Start-Date: Mon Jun 03 2024 15:23:59 India Standard Time
+15:23:59 (SW_D) (@SW_D-SLOG@) PID: 20208
+15:23:59 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+15:23:59 (SW_D) (@SW_D-SLOG@) 
+15:23:59 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+15:23:59 (SW_D) (@SW_D-SLOG@) Options file used: None
+15:23:59 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+15:23:59 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+15:23:59 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+15:23:59 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 5
+15:23:59 (SW_D) (@SW_D-SLOG@) 
+15:23:59 (SW_D) (@SW_D-SLOG@) === Network Info ===
+15:23:59 (SW_D) (@SW_D-SLOG@) Listening port: 58267
+15:23:59 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+15:23:59 (SW_D) (@SW_D-SLOG@) 
+15:23:59 (SW_D) (@SW_D-SLOG@) === Host Info ===
+15:23:59 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+15:23:59 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+15:23:59 (SW_D) (@SW_D-SLOG@) ===============================================
+15:24:21 (SW_D) TCP_NODELAY NOT enabled
+15:24:21 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+16:35:46 (lmgrd) TIMESTAMP 6/3/2024
+19:44:16 (SW_D) (@SW_D-SLOG@) ===============================================
+19:44:16 (SW_D) (@SW_D-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+19:44:16 (SW_D) (@SW_D-SLOG@) Time: Mon Jun 03 2024 19:44:16 India Standard Time
+19:44:16 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+19:44:16 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 19:44:16 India Standard Time,#3,(5196K),(SYSTEM,LAPTOP-9APT1262,1088)
+19:44:16 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 17:32:21 India Standard Time,#3,(5196K),(SYSTEM,LAPTOP-9APT1262,1088)
+19:44:16 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 17:30:21 India Standard Time,#3,(5196K),(SYSTEM,LAPTOP-9APT1262,1088)
+19:44:16 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 17:28:21 India Standard Time,#3,(5196K),(SYSTEM,LAPTOP-9APT1262,1088)
+19:44:16 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 17:26:21 India Standard Time,#3,(5196K),(SYSTEM,LAPTOP-9APT1262,1088)
+19:44:16 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 17:24:21 India Standard Time,#3,(5196K),(SYSTEM,LAPTOP-9APT1262,1088)
+19:44:16 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 17:22:21 India Standard Time,#3,(5196K),(SYSTEM,LAPTOP-9APT1262,1088)
+19:44:16 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 17:20:21 India Standard Time,#3,(5196K),(SYSTEM,LAPTOP-9APT1262,1088)
+19:44:16 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 17:18:21 India Standard Time,#3,(5196K),(SYSTEM,LAPTOP-9APT1262,1088)
+19:44:16 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 17:16:21 India Standard Time,#3,(5196K),(SYSTEM,LAPTOP-9APT1262,1088)
+19:44:16 (SW_D) (@SW_D-SLOG@) 
+19:44:16 (SW_D) (@SW_D-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+19:44:16 (SW_D) (@SW_D-SLOG@) Time: Mon Jun 03 2024 19:44:16 India Standard Time
+19:44:16 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+19:44:16 (SW_D) (@SW_D-SLOG@) 
+19:44:16 (SW_D) (@SW_D-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+19:44:16 (SW_D) (@SW_D-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+19:44:16 (SW_D) (@SW_D-SLOG@) Time: Mon Jun 03 2024 19:44:16 India Standard Time
+19:44:16 (SW_D) (@SW_D-SLOG@) In-house operation time, when, #concurrent clients
+19:44:16 (SW_D) (@SW_D-SLOG@) 
+19:44:16 (SW_D) (@SW_D-SLOG@) === Active Connections Info ===
+19:44:16 (SW_D) (@SW_D-SLOG@) Peak active connections #3 attempted at Mon Jun 03 2024 15:24:21 India Standard Time
+19:44:16 (SW_D) (@SW_D-SLOG@) 
+19:44:16 (SW_D) (@SW_D-SLOG@) === Memory Usage Info ===
+19:44:16 (SW_D) (@SW_D-SLOG@) Peak private bytes 5564K attempted at Mon Jun 03 2024 15:26:21 India Standard Time
+19:44:16 (SW_D) (@SW_D-SLOG@) ===============================================
+19:44:16 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+19:44:16 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 7799 seconds.
+19:44:16 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+19:44:16 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  (SHUTDOWN)
+19:44:16 (lmgrd) SW_D exited with status 28 (Communications error)
+19:44:16 (lmgrd) Since this is an unknown status, license server 
+19:44:16 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+19:44:16 (lmgrd) REStarted SW_D (pid 6276)
+19:44:17 (SW_D) Unable to initialize access to trusted storage: 1
+19:44:17 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+19:44:17 (SW_D) SLOG: Summary LOG statistics is enabled.
+19:44:17 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+19:44:17 (SW_D) SLOG: VM Status: 255
+19:44:17 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+19:44:17 (SW_D) swoffice	swofficepro	harnessing	
+19:44:17 (SW_D) photoworks	featureworks	piping		
+19:44:17 (SW_D) animator	toolbox		utilities	
+19:44:17 (SW_D) swofficepremium taskscheduler	dwgeditor	
+19:44:17 (SW_D) swift		designchecker	scanto3d	
+19:44:17 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+19:44:17 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+19:44:17 (SW_D) swsustainability catiatoswtrans	swcosting	
+19:44:17 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+19:44:17 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+19:44:17 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+19:44:17 (SW_D) swlivereporteditor edrw		edrwcore	
+19:44:17 (SW_D) swmbd		swmbd_std	elec2dcore	
+19:44:17 (SW_D) elec2dstd	elec2d		elec3d		
+19:44:17 (SW_D) elecpro		pdmworks	pdmworks_sa	
+19:44:17 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+19:44:17 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+19:44:17 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+19:44:17 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+19:44:17 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+19:44:17 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+19:44:17 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+19:44:17 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+19:44:17 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+19:44:17 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+19:44:17 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+19:44:17 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+19:44:17 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+19:44:17 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+19:44:17 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+19:44:17 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+19:44:17 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+19:44:17 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+19:44:17 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+19:44:17 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+19:44:17 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+19:44:17 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+19:44:17 (SW_D) plastics	plastics_pro	plastics_premium 
+19:44:17 (SW_D) plastics_advanced draftsight	draftsightapi	
+19:44:17 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+19:44:17 (SW_D) draftsightdeveloper draftsightpro	visu		
+19:44:17 (SW_D) visupro		visupowerboost	pcb		
+19:44:17 (SW_D) pcbpro		pcbaltium	camassemblies	
+19:44:17 (SW_D) camturning	camconfigs	camadaptive	
+19:44:17 (SW_D) camnceditor	cammillindexing camposting	
+19:44:17 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+19:44:17 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+19:44:17 (SW_D) swepdm_web	swepdm_processor swepm_web	
+19:44:17 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+19:44:17 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+19:44:17 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+19:44:17 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+19:44:17 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+19:44:17 (SW_D) swmechatronicsstd visuboost	
+19:44:17 (SW_D) EXTERNAL FILTERS are OFF
+19:44:17 (lmgrd) SW_D using TCP-port 59986
+19:44:18 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+19:44:18 (SW_D) SLOG: TS update poll interval is 600 seconds.
+19:44:18 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+19:44:18 (SW_D) (@SW_D-SLOG@) ===============================================
+19:44:18 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+19:44:18 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+19:44:18 (SW_D) (@SW_D-SLOG@) Start-Date: Mon Jun 03 2024 19:44:18 India Standard Time
+19:44:18 (SW_D) (@SW_D-SLOG@) PID: 6276
+19:44:18 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+19:44:18 (SW_D) (@SW_D-SLOG@) 
+19:44:18 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+19:44:18 (SW_D) (@SW_D-SLOG@) Options file used: None
+19:44:18 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+19:44:18 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+19:44:18 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+19:44:18 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 6
+19:44:18 (SW_D) (@SW_D-SLOG@) 
+19:44:18 (SW_D) (@SW_D-SLOG@) === Network Info ===
+19:44:18 (SW_D) (@SW_D-SLOG@) Listening port: 59986
+19:44:18 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+19:44:18 (SW_D) (@SW_D-SLOG@) 
+19:44:18 (SW_D) (@SW_D-SLOG@) === Host Info ===
+19:44:18 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+19:44:18 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+19:44:18 (SW_D) (@SW_D-SLOG@) ===============================================
+19:48:16 (SW_D) TCP_NODELAY NOT enabled
+19:48:16 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+23:45:57 (SW_D) (@SW_D-SLOG@) 23:45:57 (lmgrd) TIMESTAMP 6/3/2024
+===============================================
+23:45:57 (SW_D) (@SW_D-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+23:45:57 (SW_D) (@SW_D-SLOG@) Time: Mon Jun 03 2024 23:45:57 India Standard Time
+23:45:57 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+23:45:57 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 23:45:57 India Standard Time,#3,(5256K),(SYSTEM,LAPTOP-9APT1262,1040)
+23:45:57 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 21:42:17 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1040)
+23:45:57 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 21:40:17 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1040)
+23:45:57 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 21:38:16 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1040)
+23:45:57 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 21:36:16 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1040)
+23:45:57 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 21:34:16 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1040)
+23:45:57 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 21:32:16 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1040)
+23:45:57 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 21:30:16 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1040)
+23:45:57 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 21:28:16 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1040)
+23:45:57 (SW_D) (@SW_D-SLOG@) 00000000 ms at Mon Jun 03 2024 21:26:16 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1040)
+23:45:57 (SW_D) (@SW_D-SLOG@) 
+23:45:57 (SW_D) (@SW_D-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+23:45:57 (SW_D) (@SW_D-SLOG@) Time: Mon Jun 03 2024 23:45:57 India Standard Time
+23:45:57 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+23:45:57 (SW_D) (@SW_D-SLOG@) 
+23:45:57 (SW_D) (@SW_D-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+23:45:57 (SW_D) (@SW_D-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+23:45:57 (SW_D) (@SW_D-SLOG@) Time: Mon Jun 03 2024 23:45:57 India Standard Time
+23:45:57 (SW_D) (@SW_D-SLOG@) In-house operation time, when, #concurrent clients
+23:45:57 (SW_D) (@SW_D-SLOG@) 
+23:45:57 (SW_D) (@SW_D-SLOG@) === Active Connections Info ===
+23:45:57 (SW_D) (@SW_D-SLOG@) Peak active connections #3 attempted at Mon Jun 03 2024 19:48:16 India Standard Time
+23:45:57 (SW_D) (@SW_D-SLOG@) 
+23:45:57 (SW_D) (@SW_D-SLOG@) === Memory Usage Info ===
+23:45:57 (SW_D) (@SW_D-SLOG@) Peak private bytes 5480K attempted at Mon Jun 03 2024 19:48:16 India Standard Time
+23:45:57 (SW_D) (@SW_D-SLOG@) ===============================================
+23:45:57 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+23:45:57 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 7263 seconds.
+23:45:57 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+23:45:57 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  (SHUTDOWN)
+23:46:02 (lmgrd) SW_D exited with status 28 (Communications error)
+23:46:02 (lmgrd) Since this is an unknown status, license server 
+23:46:02 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+23:46:02 (lmgrd) REStarted SW_D (pid 19508)
+23:46:02 (SW_D) Unable to initialize access to trusted storage: 1
+23:46:02 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+23:46:03 (SW_D) SLOG: Summary LOG statistics is enabled.
+23:46:03 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+23:46:03 (SW_D) SLOG: VM Status: 255
+23:46:03 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+23:46:03 (SW_D) swoffice	swofficepro	harnessing	
+23:46:03 (SW_D) photoworks	featureworks	piping		
+23:46:03 (SW_D) animator	toolbox		utilities	
+23:46:03 (SW_D) swofficepremium taskscheduler	dwgeditor	
+23:46:03 (SW_D) swift		designchecker	scanto3d	
+23:46:03 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+23:46:03 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+23:46:03 (SW_D) swsustainability catiatoswtrans	swcosting	
+23:46:03 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+23:46:03 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+23:46:03 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+23:46:03 (SW_D) swlivereporteditor edrw		edrwcore	
+23:46:03 (SW_D) swmbd		swmbd_std	elec2dcore	
+23:46:03 (SW_D) elec2dstd	elec2d		elec3d		
+23:46:03 (SW_D) elecpro		pdmworks	pdmworks_sa	
+23:46:03 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+23:46:03 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+23:46:03 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+23:46:03 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+23:46:03 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+23:46:03 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+23:46:03 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+23:46:03 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+23:46:03 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+23:46:03 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+23:46:03 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+23:46:03 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+23:46:03 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+23:46:03 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+23:46:03 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+23:46:03 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+23:46:03 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+23:46:03 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+23:46:03 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+23:46:03 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+23:46:03 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+23:46:03 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+23:46:03 (SW_D) plastics	plastics_pro	plastics_premium 
+23:46:03 (SW_D) plastics_advanced draftsight	draftsightapi	
+23:46:03 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+23:46:03 (SW_D) draftsightdeveloper draftsightpro	visu		
+23:46:03 (SW_D) visupro		visupowerboost	pcb		
+23:46:03 (SW_D) pcbpro		pcbaltium	camassemblies	
+23:46:03 (SW_D) camturning	camconfigs	camadaptive	
+23:46:03 (SW_D) camnceditor	cammillindexing camposting	
+23:46:03 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+23:46:03 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+23:46:03 (SW_D) swepdm_web	swepdm_processor swepm_web	
+23:46:03 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+23:46:03 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+23:46:03 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+23:46:03 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+23:46:03 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+23:46:03 (SW_D) swmechatronicsstd visuboost	
+23:46:03 (SW_D) EXTERNAL FILTERS are OFF
+23:46:03 (lmgrd) SW_D using TCP-port 61545
+23:46:03 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+23:46:03 (SW_D) SLOG: TS update poll interval is 600 seconds.
+23:46:03 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+23:46:03 (SW_D) (@SW_D-SLOG@) ===============================================
+23:46:03 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+23:46:03 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+23:46:03 (SW_D) (@SW_D-SLOG@) Start-Date: Mon Jun 03 2024 23:46:03 India Standard Time
+23:46:03 (SW_D) (@SW_D-SLOG@) PID: 19508
+23:46:03 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+23:46:03 (SW_D) (@SW_D-SLOG@) 
+23:46:03 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+23:46:03 (SW_D) (@SW_D-SLOG@) Options file used: None
+23:46:03 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+23:46:03 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+23:46:03 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+23:46:03 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 7
+23:46:03 (SW_D) (@SW_D-SLOG@) 
+23:46:03 (SW_D) (@SW_D-SLOG@) === Network Info ===
+23:46:03 (SW_D) (@SW_D-SLOG@) Listening port: 61545
+23:46:03 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+23:46:03 (SW_D) (@SW_D-SLOG@) 
+23:46:03 (SW_D) (@SW_D-SLOG@) === Host Info ===
+23:46:03 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+23:46:03 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+23:46:03 (SW_D) (@SW_D-SLOG@) ===============================================
+23:49:57 (SW_D) TCP_NODELAY NOT enabled
+23:49:57 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+ 2:47:02 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  
+ 2:47:02 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+ 2:47:02 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 7315 seconds.
+ 2:47:02 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+ 2:47:02 (lmgrd) SW_D exited with status 28 (Communications error)
+ 2:47:02 (lmgrd) Since this is an unknown status, license server 
+ 2:47:02 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+ 2:47:02 (lmgrd) REStarted SW_D (pid 5084)
+ 2:47:03 (SW_D) Unable to initialize access to trusted storage: 1
+ 2:47:03 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+ 2:47:03 (SW_D) SLOG: Summary LOG statistics is enabled.
+ 2:47:03 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+ 2:47:03 (SW_D) SLOG: VM Status: 255
+ 2:47:03 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+ 2:47:03 (SW_D) swoffice	swofficepro	harnessing	
+ 2:47:03 (SW_D) photoworks	featureworks	piping		
+ 2:47:03 (SW_D) animator	toolbox		utilities	
+ 2:47:03 (SW_D) swofficepremium taskscheduler	dwgeditor	
+ 2:47:03 (SW_D) swift		designchecker	scanto3d	
+ 2:47:03 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+ 2:47:03 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+ 2:47:03 (SW_D) swsustainability catiatoswtrans	swcosting	
+ 2:47:03 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+ 2:47:03 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+ 2:47:03 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+ 2:47:03 (SW_D) swlivereporteditor edrw		edrwcore	
+ 2:47:03 (SW_D) swmbd		swmbd_std	elec2dcore	
+ 2:47:03 (SW_D) elec2dstd	elec2d		elec3d		
+ 2:47:03 (SW_D) elecpro		pdmworks	pdmworks_sa	
+ 2:47:03 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+ 2:47:03 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+ 2:47:03 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+ 2:47:03 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+ 2:47:03 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+ 2:47:03 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+ 2:47:03 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+ 2:47:03 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+ 2:47:03 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+ 2:47:03 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+ 2:47:03 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+ 2:47:03 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+ 2:47:03 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+ 2:47:03 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+ 2:47:03 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+ 2:47:03 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+ 2:47:03 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+ 2:47:03 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+ 2:47:03 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+ 2:47:03 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+ 2:47:03 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+ 2:47:03 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+ 2:47:03 (SW_D) plastics	plastics_pro	plastics_premium 
+ 2:47:03 (SW_D) plastics_advanced draftsight	draftsightapi	
+ 2:47:03 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+ 2:47:03 (SW_D) draftsightdeveloper draftsightpro	visu		
+ 2:47:03 (SW_D) visupro		visupowerboost	pcb		
+ 2:47:03 (SW_D) pcbpro		pcbaltium	camassemblies	
+ 2:47:03 (SW_D) camturning	camconfigs	camadaptive	
+ 2:47:03 (SW_D) camnceditor	cammillindexing camposting	
+ 2:47:03 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+ 2:47:03 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+ 2:47:03 (SW_D) swepdm_web	swepdm_processor swepm_web	
+ 2:47:03 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+ 2:47:03 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+ 2:47:03 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+ 2:47:03 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+ 2:47:03 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+ 2:47:03 (SW_D) swmechatronicsstd visuboost	
+ 2:47:03 (SW_D) EXTERNAL FILTERS are OFF
+ 2:47:03 (lmgrd) SW_D using TCP-port 62053
+ 2:47:03 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+ 2:47:03 (SW_D) SLOG: TS update poll interval is 600 seconds.
+ 2:47:03 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+ 2:47:03 (SW_D) (@SW_D-SLOG@) ===============================================
+ 2:47:03 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+ 2:47:03 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+ 2:47:03 (SW_D) (@SW_D-SLOG@) Start-Date: Tue Jun 04 2024 02:47:03 India Standard Time
+ 2:47:03 (SW_D) (@SW_D-SLOG@) PID: 5084
+ 2:47:03 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+ 2:47:03 (SW_D) (@SW_D-SLOG@) 
+ 2:47:03 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+ 2:47:03 (SW_D) (@SW_D-SLOG@) Options file used: None
+ 2:47:03 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+ 2:47:03 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+ 2:47:03 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+ 2:47:03 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 8
+ 2:47:03 (SW_D) (@SW_D-SLOG@) 
+ 2:47:03 (SW_D) (@SW_D-SLOG@) === Network Info ===
+ 2:47:03 (SW_D) (@SW_D-SLOG@) Listening port: 62053
+ 2:47:03 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+ 2:47:03 (SW_D) (@SW_D-SLOG@) 
+ 2:47:03 (SW_D) (@SW_D-SLOG@) === Host Info ===
+ 2:47:03 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+ 2:47:03 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+ 2:47:03 (SW_D) (@SW_D-SLOG@) ===============================================
+ 2:48:56 (SW_D) TCP_NODELAY NOT enabled
+ 2:48:56 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+15:55:29 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  
+15:55:29 (SW_D) (@SW_D-SLOG@) ===============================================
+15:55:29 (SW_D) (@SW_D-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+15:55:29 (SW_D) (@SW_D-SLOG@) Time: Tue Jun 04 2024 15:55:29 India Standard Time
+15:55:29 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+15:55:29 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 03:28:56 India Standard Time,#3,(5164K),(SYSTEM,LAPTOP-9APT1262,852)
+15:55:29 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 03:26:56 India Standard Time,#3,(5164K),(SYSTEM,LAPTOP-9APT1262,852)
+15:55:29 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 03:24:56 India Standard Time,#3,(5164K),(SYSTEM,LAPTOP-9APT1262,852)
+15:55:29 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 03:22:56 India Standard Time,#3,(5164K),(SYSTEM,LAPTOP-9APT1262,852)
+15:55:29 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 03:20:56 India Standard Time,#3,(5164K),(SYSTEM,LAPTOP-9APT1262,852)
+15:55:29 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 03:18:56 India Standard Time,#3,(5164K),(SYSTEM,LAPTOP-9APT1262,852)
+15:55:29 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 03:16:56 India Standard Time,#3,(5164K),(SYSTEM,LAPTOP-9APT1262,852)
+15:55:29 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 03:14:56 India Standard Time,#3,(5164K),(SYSTEM,LAPTOP-9APT1262,852)
+15:55:29 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 03:12:56 India Standard Time,#3,(5164K),(SYSTEM,LAPTOP-9APT1262,852)
+15:55:29 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 03:10:56 India Standard Time,#3,(5164K),(SYSTEM,LAPTOP-9APT1262,852)
+15:55:29 (SW_D) (@SW_D-SLOG@) 
+15:55:29 (SW_D) (@SW_D-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+15:55:29 (SW_D) (@SW_D-SLOG@) Time: Tue Jun 04 2024 15:55:29 India Standard Time
+15:55:29 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+15:55:29 (SW_D) (@SW_D-SLOG@) 
+15:55:29 (SW_D) (@SW_D-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+15:55:29 (SW_D) (@SW_D-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+15:55:29 (SW_D) (@SW_D-SLOG@) Time: Tue Jun 04 2024 15:55:29 India Standard Time
+15:55:29 (SW_D) (@SW_D-SLOG@) In-house operation time, when, #concurrent clients
+15:55:29 (SW_D) (@SW_D-SLOG@) 
+15:55:29 (SW_D) (@SW_D-SLOG@) === Active Connections Info ===
+15:55:29 (SW_D) (@SW_D-SLOG@) Peak active connections #3 attempted at Tue Jun 04 2024 02:48:56 India Standard Time
+15:55:29 (SW_D) (@SW_D-SLOG@) 
+15:55:29 (SW_D) (@SW_D-SLOG@) === Memory Usage Info ===
+15:55:29 (SW_D) (@SW_D-SLOG@) Peak private bytes 5400K attempted at Tue Jun 04 2024 02:48:56 India Standard Time
+15:55:29 (SW_D) (@SW_D-SLOG@) ===============================================
+15:55:29 (SW_D) TIMESTAMP 6/4/2024
+15:55:29 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+15:55:29 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 44783 seconds.
+15:55:29 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+15:55:29 (lmgrd) TIMESTAMP 6/4/2024
+15:55:34 (lmgrd) SW_D exited with status 28 (Communications error)
+15:55:34 (lmgrd) Since this is an unknown status, license server 
+15:55:34 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+15:55:34 (lmgrd) REStarted SW_D (pid 21452)
+15:55:34 (SW_D) Unable to initialize access to trusted storage: 1
+15:55:34 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+15:55:36 (SW_D) SLOG: Summary LOG statistics is enabled.
+15:55:36 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+15:55:36 (SW_D) SLOG: VM Status: 255
+15:55:36 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+15:55:36 (SW_D) swoffice	swofficepro	harnessing	
+15:55:36 (SW_D) photoworks	featureworks	piping		
+15:55:36 (SW_D) animator	toolbox		utilities	
+15:55:36 (SW_D) swofficepremium taskscheduler	dwgeditor	
+15:55:36 (SW_D) swift		designchecker	scanto3d	
+15:55:36 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+15:55:36 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+15:55:36 (SW_D) swsustainability catiatoswtrans	swcosting	
+15:55:36 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+15:55:36 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+15:55:36 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+15:55:36 (SW_D) swlivereporteditor edrw		edrwcore	
+15:55:36 (SW_D) swmbd		swmbd_std	elec2dcore	
+15:55:36 (SW_D) elec2dstd	elec2d		elec3d		
+15:55:36 (SW_D) elecpro		pdmworks	pdmworks_sa	
+15:55:36 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+15:55:36 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+15:55:36 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+15:55:36 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+15:55:36 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+15:55:36 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+15:55:36 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+15:55:36 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+15:55:36 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+15:55:36 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+15:55:36 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+15:55:36 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+15:55:36 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+15:55:36 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+15:55:36 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+15:55:36 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+15:55:36 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+15:55:36 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+15:55:36 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+15:55:36 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+15:55:36 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+15:55:36 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+15:55:36 (SW_D) plastics	plastics_pro	plastics_premium 
+15:55:36 (SW_D) plastics_advanced draftsight	draftsightapi	
+15:55:36 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+15:55:36 (SW_D) draftsightdeveloper draftsightpro	visu		
+15:55:36 (SW_D) visupro		visupowerboost	pcb		
+15:55:36 (SW_D) pcbpro		pcbaltium	camassemblies	
+15:55:36 (SW_D) camturning	camconfigs	camadaptive	
+15:55:36 (SW_D) camnceditor	cammillindexing camposting	
+15:55:36 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+15:55:36 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+15:55:36 (SW_D) swepdm_web	swepdm_processor swepm_web	
+15:55:36 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+15:55:36 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+15:55:36 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+15:55:36 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+15:55:36 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+15:55:36 (SW_D) swmechatronicsstd visuboost	
+15:55:36 (SW_D) EXTERNAL FILTERS are OFF
+15:55:36 (lmgrd) SW_D using TCP-port 62275
+15:55:36 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+15:55:36 (SW_D) SLOG: TS update poll interval is 600 seconds.
+15:55:36 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+15:55:36 (SW_D) (@SW_D-SLOG@) ===============================================
+15:55:36 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+15:55:36 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+15:55:36 (SW_D) (@SW_D-SLOG@) Start-Date: Tue Jun 04 2024 15:55:36 India Standard Time
+15:55:36 (SW_D) (@SW_D-SLOG@) PID: 21452
+15:55:36 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+15:55:36 (SW_D) (@SW_D-SLOG@) 
+15:55:36 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+15:55:36 (SW_D) (@SW_D-SLOG@) Options file used: None
+15:55:36 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+15:55:36 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+15:55:36 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+15:55:36 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 9
+15:55:36 (SW_D) (@SW_D-SLOG@) 
+15:55:36 (SW_D) (@SW_D-SLOG@) === Network Info ===
+15:55:36 (SW_D) (@SW_D-SLOG@) Listening port: 62275
+15:55:36 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+15:55:36 (SW_D) (@SW_D-SLOG@) 
+15:55:36 (SW_D) (@SW_D-SLOG@) === Host Info ===
+15:55:36 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+15:55:36 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+15:55:36 (SW_D) (@SW_D-SLOG@) ===============================================
+15:57:05 (SW_D) TCP_NODELAY NOT enabled
+15:57:05 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+18:21:03 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  
+18:21:05 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+20:37:12 (SW_D) (@SW_D-SLOG@) ===============================================
+20:37:12 (SW_D) (@SW_D-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+20:37:12 (SW_D) (@SW_D-SLOG@) Time: Tue Jun 04 2024 20:37:12 India Standard Time
+20:37:12 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+20:37:12 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 19:03:06 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,908)
+20:37:12 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 19:01:06 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,908)
+20:37:12 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 18:59:06 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,908)
+20:37:12 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 18:57:06 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,908)
+20:37:12 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 18:55:06 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,908)
+20:37:12 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 18:53:06 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,908)
+20:37:12 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 18:51:06 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,908)
+20:37:12 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 18:49:06 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,908)
+20:37:12 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 18:47:06 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,908)
+20:37:12 (SW_D) (@SW_D-SLOG@) 00000000 ms at Tue Jun 04 2024 18:45:06 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,908)
+20:37:12 (SW_D) (@SW_D-SLOG@) 
+20:37:12 (SW_D) (@SW_D-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+20:37:12 (SW_D) (@SW_D-SLOG@) Time: Tue Jun 04 2024 20:37:12 India Standard Time
+20:37:12 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+20:37:12 (SW_D) (@SW_D-SLOG@) 00000015 ms at Tue Jun 04 2024 16:51:05 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,668)
+20:37:12 (SW_D) (@SW_D-SLOG@) 
+20:37:12 (SW_D) (@SW_D-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+20:37:12 (SW_D) (@SW_D-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+20:37:12 (SW_D) (@SW_D-SLOG@) Time: Tue Jun 04 2024 20:37:12 India Standard Time
+20:37:12 (SW_D) (@SW_D-SLOG@) In-house operation time, when, #concurrent clients
+20:37:12 (SW_D) (@SW_D-SLOG@) 
+20:37:12 (SW_D) (@SW_D-SLOG@) === Active Connections Info ===
+20:37:12 (SW_D) (@SW_D-SLOG@) Peak active connections #3 attempted at Tue Jun 04 2024 15:57:05 India Standard Time
+20:37:12 (SW_D) (@SW_D-SLOG@) 
+20:37:12 (SW_D) (@SW_D-SLOG@) === Memory Usage Info ===
+20:37:12 (SW_D) (@SW_D-SLOG@) Peak private bytes 5652K attempted at Tue Jun 04 2024 15:57:05 India Standard Time
+20:37:12 (SW_D) (@SW_D-SLOG@) ===============================================
+20:37:12 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+20:37:12 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 5641 seconds.
+20:37:12 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+20:37:12 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  (SHUTDOWN)
+20:37:12 (lmgrd) SW_D exited with status 28 (Communications error)
+20:37:12 (lmgrd) Since this is an unknown status, license server 
+20:37:12 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+20:37:12 (lmgrd) REStarted SW_D (pid 13220)
+20:37:12 (SW_D) Unable to initialize access to trusted storage: 1
+20:37:12 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+20:37:13 (SW_D) SLOG: Summary LOG statistics is enabled.
+20:37:13 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+20:37:13 (SW_D) SLOG: VM Status: 255
+20:37:13 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+20:37:13 (SW_D) swoffice	swofficepro	harnessing	
+20:37:13 (SW_D) photoworks	featureworks	piping		
+20:37:13 (SW_D) animator	toolbox		utilities	
+20:37:13 (SW_D) swofficepremium taskscheduler	dwgeditor	
+20:37:13 (SW_D) swift		designchecker	scanto3d	
+20:37:13 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+20:37:13 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+20:37:13 (SW_D) swsustainability catiatoswtrans	swcosting	
+20:37:13 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+20:37:13 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+20:37:13 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+20:37:13 (SW_D) swlivereporteditor edrw		edrwcore	
+20:37:13 (SW_D) swmbd		swmbd_std	elec2dcore	
+20:37:13 (SW_D) elec2dstd	elec2d		elec3d		
+20:37:13 (SW_D) elecpro		pdmworks	pdmworks_sa	
+20:37:13 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+20:37:13 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+20:37:13 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+20:37:13 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+20:37:13 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+20:37:13 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+20:37:13 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+20:37:13 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+20:37:13 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+20:37:13 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+20:37:13 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+20:37:13 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+20:37:13 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+20:37:13 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+20:37:13 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+20:37:13 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+20:37:13 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+20:37:13 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+20:37:13 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+20:37:13 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+20:37:13 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+20:37:13 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+20:37:13 (SW_D) plastics	plastics_pro	plastics_premium 
+20:37:13 (SW_D) plastics_advanced draftsight	draftsightapi	
+20:37:13 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+20:37:13 (SW_D) draftsightdeveloper draftsightpro	visu		
+20:37:13 (SW_D) visupro		visupowerboost	pcb		
+20:37:13 (SW_D) pcbpro		pcbaltium	camassemblies	
+20:37:13 (SW_D) camturning	camconfigs	camadaptive	
+20:37:13 (SW_D) camnceditor	cammillindexing camposting	
+20:37:13 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+20:37:13 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+20:37:13 (SW_D) swepdm_web	swepdm_processor swepm_web	
+20:37:13 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+20:37:13 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+20:37:13 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+20:37:13 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+20:37:13 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+20:37:13 (SW_D) swmechatronicsstd visuboost	
+20:37:13 (SW_D) EXTERNAL FILTERS are OFF
+20:37:13 (lmgrd) SW_D using TCP-port 51408
+20:37:13 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+20:37:13 (SW_D) SLOG: TS update poll interval is 600 seconds.
+20:37:13 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+20:37:13 (SW_D) (@SW_D-SLOG@) ===============================================
+20:37:13 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+20:37:13 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+20:37:13 (SW_D) (@SW_D-SLOG@) Start-Date: Tue Jun 04 2024 20:37:13 India Standard Time
+20:37:13 (SW_D) (@SW_D-SLOG@) PID: 13220
+20:37:13 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+20:37:13 (SW_D) (@SW_D-SLOG@) 
+20:37:13 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+20:37:13 (SW_D) (@SW_D-SLOG@) Options file used: None
+20:37:13 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+20:37:13 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+20:37:13 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+20:37:13 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 10
+20:37:13 (SW_D) (@SW_D-SLOG@) 
+20:37:13 (SW_D) (@SW_D-SLOG@) === Network Info ===
+20:37:13 (SW_D) (@SW_D-SLOG@) Listening port: 51408
+20:37:13 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+20:37:13 (SW_D) (@SW_D-SLOG@) 
+20:37:13 (SW_D) (@SW_D-SLOG@) === Host Info ===
+20:37:13 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+20:37:13 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+20:37:13 (SW_D) (@SW_D-SLOG@) ===============================================
+20:40:37 (SW_D) TCP_NODELAY NOT enabled
+20:40:37 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+21:55:32 (lmgrd) TIMESTAMP 6/4/2024
+22:49:31 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+22:49:31 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 2823 seconds.
+22:49:31 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+22:49:31 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  (SHUTDOWN)
+22:49:36 (lmgrd) SW_D exited with status 28 (Communications error)
+22:49:36 (lmgrd) Since this is an unknown status, license server 
+22:49:36 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+22:49:37 (lmgrd) REStarted SW_D (pid 19236)
+22:49:37 (SW_D) Unable to initialize access to trusted storage: 1
+22:49:37 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+22:49:38 (SW_D) SLOG: Summary LOG statistics is enabled.
+22:49:38 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+22:49:38 (SW_D) SLOG: VM Status: 255
+22:49:38 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+22:49:38 (SW_D) swoffice	swofficepro	harnessing	
+22:49:38 (SW_D) photoworks	featureworks	piping		
+22:49:38 (SW_D) animator	toolbox		utilities	
+22:49:38 (SW_D) swofficepremium taskscheduler	dwgeditor	
+22:49:38 (SW_D) swift		designchecker	scanto3d	
+22:49:38 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+22:49:38 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+22:49:38 (SW_D) swsustainability catiatoswtrans	swcosting	
+22:49:38 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+22:49:38 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+22:49:38 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+22:49:38 (SW_D) swlivereporteditor edrw		edrwcore	
+22:49:38 (SW_D) swmbd		swmbd_std	elec2dcore	
+22:49:38 (SW_D) elec2dstd	elec2d		elec3d		
+22:49:38 (SW_D) elecpro		pdmworks	pdmworks_sa	
+22:49:38 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+22:49:38 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+22:49:38 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+22:49:38 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+22:49:38 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+22:49:38 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+22:49:38 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+22:49:38 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+22:49:38 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+22:49:38 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+22:49:38 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+22:49:38 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+22:49:38 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+22:49:38 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+22:49:38 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+22:49:38 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+22:49:38 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+22:49:38 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+22:49:38 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+22:49:38 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+22:49:38 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+22:49:38 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+22:49:38 (SW_D) plastics	plastics_pro	plastics_premium 
+22:49:38 (SW_D) plastics_advanced draftsight	draftsightapi	
+22:49:38 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+22:49:38 (SW_D) draftsightdeveloper draftsightpro	visu		
+22:49:38 (SW_D) visupro		visupowerboost	pcb		
+22:49:38 (SW_D) pcbpro		pcbaltium	camassemblies	
+22:49:38 (SW_D) camturning	camconfigs	camadaptive	
+22:49:38 (SW_D) camnceditor	cammillindexing camposting	
+22:49:38 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+22:49:38 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+22:49:38 (SW_D) swepdm_web	swepdm_processor swepm_web	
+22:49:38 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+22:49:38 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+22:49:38 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+22:49:38 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+22:49:38 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+22:49:38 (SW_D) swmechatronicsstd visuboost	
+22:49:38 (SW_D) EXTERNAL FILTERS are OFF
+22:49:38 (lmgrd) SW_D using TCP-port 51282
+22:49:38 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+22:49:38 (SW_D) SLOG: TS update poll interval is 600 seconds.
+22:49:38 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+22:49:38 (SW_D) (@SW_D-SLOG@) ===============================================
+22:49:38 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+22:49:38 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+22:49:38 (SW_D) (@SW_D-SLOG@) Start-Date: Tue Jun 04 2024 22:49:38 India Standard Time
+22:49:38 (SW_D) (@SW_D-SLOG@) PID: 19236
+22:49:38 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+22:49:38 (SW_D) (@SW_D-SLOG@) 
+22:49:38 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+22:49:38 (SW_D) (@SW_D-SLOG@) Options file used: None
+22:49:38 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+22:49:38 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+22:49:38 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+22:49:38 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 11
+22:49:38 (SW_D) (@SW_D-SLOG@) 
+22:49:38 (SW_D) (@SW_D-SLOG@) === Network Info ===
+22:49:38 (SW_D) (@SW_D-SLOG@) Listening port: 51282
+22:49:38 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+22:49:38 (SW_D) (@SW_D-SLOG@) 
+22:49:38 (SW_D) (@SW_D-SLOG@) === Host Info ===
+22:49:38 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+22:49:38 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+22:49:38 (SW_D) (@SW_D-SLOG@) ===============================================
+10:30:47 (SW_D) (@SW_D-SLOG@) 10:30:47 (lmgrd) ==============================
+10:30:47 (SW_D) (@SW_D-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+10:30:47 (SW_D) (@SW_D-SLOG@) Time: Wed Jun 05 2024 10:30:47 India Standard Time
+10:30:47 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+10:30:47 (SW_D) (@SW_D-SLOG@) 
+10:30:47 (SW_D) (@SW_D-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+10:30:47 (SW_D) (@SW_D-SLOG@) Time: Wed Jun 05 2024 10:30:47 India Standard Time
+10:30:47 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+10:30:47 (SW_D) (@SW_D-SLOG@) 
+10:30:47 (SW_D) (@SW_D-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+10:30:47 (SW_D) (@SW_D-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+10:30:47 (SW_D) (@SW_D-SLOG@) Time: Wed Jun 05 2024 10:30:47 India Standard Time
+10:30:47 (SW_D) (@SW_D-SLOG@) In-house operation time, when, #concurrent clients
+10:30:47 (SW_D) (@SW_D-SLOG@) 
+10:30:47 (SW_D) (@SW_D-SLOG@) === Active Connections Info ===
+10:30:47 (SW_D) (@SW_D-SLOG@) 
+10:30:47 (SW_D) (@SW_D-SLOG@) === Memory Usage Info ===
+10:30:47 (SW_D) (@SW_D-SLOG@) ===============================================
+10:30:47 (SW_D) TIMESTAMP 6/5/2024
+10:30:47 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+10:30:47 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 42069 seconds.
+10:30:47 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+10:30:52 (lmgrd) SW_D exited with status 28 (Communications error)
+10:30:52 (lmgrd) Since this is an unknown status, license server 
+10:30:52 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+10:30:52 (lmgrd) REStarted SW_D (pid 14320)
+10:30:52 (SW_D) Unable to initialize access to trusted storage: 1
+10:30:52 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+10:30:55 (SW_D) SLOG: Summary LOG statistics is enabled.
+10:30:55 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+10:30:55 (SW_D) SLOG: VM Status: 255
+10:30:55 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+10:30:55 (SW_D) swoffice	swofficepro	harnessing	
+10:30:55 (SW_D) photoworks	featureworks	piping		
+10:30:55 (SW_D) animator	toolbox		utilities	
+10:30:55 (SW_D) swofficepremium taskscheduler	dwgeditor	
+10:30:55 (SW_D) swift		designchecker	scanto3d	
+10:30:55 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+10:30:55 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+10:30:55 (SW_D) swsustainability catiatoswtrans	swcosting	
+10:30:55 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+10:30:55 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+10:30:55 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+10:30:55 (SW_D) swlivereporteditor edrw		edrwcore	
+10:30:55 (SW_D) swmbd		swmbd_std	elec2dcore	
+10:30:55 (SW_D) elec2dstd	elec2d		elec3d		
+10:30:55 (SW_D) elecpro		pdmworks	pdmworks_sa	
+10:30:55 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+10:30:55 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+10:30:55 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+10:30:55 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+10:30:55 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+10:30:55 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+10:30:55 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+10:30:55 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+10:30:55 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+10:30:55 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+10:30:55 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+10:30:55 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+10:30:55 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+10:30:55 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+10:30:55 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+10:30:55 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+10:30:55 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+10:30:55 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+10:30:55 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+10:30:55 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+10:30:55 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+10:30:55 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+10:30:55 (SW_D) plastics	plastics_pro	plastics_premium 
+10:30:55 (SW_D) plastics_advanced draftsight	draftsightapi	
+10:30:55 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+10:30:55 (SW_D) draftsightdeveloper draftsightpro	visu		
+10:30:55 (SW_D) visupro		visupowerboost	pcb		
+10:30:55 (SW_D) pcbpro		pcbaltium	camassemblies	
+10:30:55 (SW_D) camturning	camconfigs	camadaptive	
+10:30:55 (SW_D) camnceditor	cammillindexing camposting	
+10:30:55 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+10:30:55 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+10:30:55 (SW_D) swepdm_web	swepdm_processor swepm_web	
+10:30:55 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+10:30:55 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+10:30:55 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+10:30:55 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+10:30:55 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+10:30:55 (SW_D) swmechatronicsstd visuboost	
+10:30:55 (SW_D) EXTERNAL FILTERS are OFF
+10:30:55 (lmgrd) SW_D using TCP-port 51537
+10:30:55 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+10:30:55 (SW_D) SLOG: TS update poll interval is 600 seconds.
+10:30:55 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+10:30:55 (SW_D) (@SW_D-SLOG@) ===============================================
+10:30:55 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+10:30:55 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+10:30:55 (SW_D) (@SW_D-SLOG@) Start-Date: Wed Jun 05 2024 10:30:55 India Standard Time
+10:30:55 (SW_D) (@SW_D-SLOG@) PID: 14320
+10:30:55 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+10:30:55 (SW_D) (@SW_D-SLOG@) 
+10:30:55 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+10:30:55 (SW_D) (@SW_D-SLOG@) Options file used: None
+10:30:55 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+10:30:55 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+10:30:55 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+10:30:55 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 12
+10:30:55 (SW_D) (@SW_D-SLOG@) 
+10:30:55 (SW_D) (@SW_D-SLOG@) === Network Info ===
+10:30:55 (SW_D) (@SW_D-SLOG@) Listening port: 51537
+10:30:55 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+10:30:55 (SW_D) (@SW_D-SLOG@) 
+10:30:55 (SW_D) (@SW_D-SLOG@) === Host Info ===
+10:30:55 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+10:30:55 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+10:30:55 (SW_D) (@SW_D-SLOG@) ===============================================
+10:34:01 (SW_D) TCP_NODELAY NOT enabled
+10:34:01 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+12:47:12 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+12:47:12 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 2596 seconds.
+12:47:12 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+12:47:12 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  (SHUTDOWN)
+12:47:17 (lmgrd) SW_D exited with status 28 (Communications error)
+12:47:17 (lmgrd) Since this is an unknown status, license server 
+12:47:17 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+12:47:18 (lmgrd) REStarted SW_D (pid 8480)
+12:47:18 (SW_D) Unable to initialize access to trusted storage: 1
+12:47:18 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+12:47:18 (SW_D) SLOG: Summary LOG statistics is enabled.
+12:47:18 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+12:47:18 (SW_D) SLOG: VM Status: 255
+12:47:18 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+12:47:18 (SW_D) swoffice	swofficepro	harnessing	
+12:47:18 (SW_D) photoworks	featureworks	piping		
+12:47:18 (SW_D) animator	toolbox		utilities	
+12:47:18 (SW_D) swofficepremium taskscheduler	dwgeditor	
+12:47:18 (SW_D) swift		designchecker	scanto3d	
+12:47:18 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+12:47:18 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+12:47:18 (SW_D) swsustainability catiatoswtrans	swcosting	
+12:47:18 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+12:47:18 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+12:47:18 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+12:47:18 (SW_D) swlivereporteditor edrw		edrwcore	
+12:47:18 (SW_D) swmbd		swmbd_std	elec2dcore	
+12:47:18 (SW_D) elec2dstd	elec2d		elec3d		
+12:47:18 (SW_D) elecpro		pdmworks	pdmworks_sa	
+12:47:18 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+12:47:18 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+12:47:18 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+12:47:18 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+12:47:18 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+12:47:18 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+12:47:18 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+12:47:18 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+12:47:18 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+12:47:18 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+12:47:18 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+12:47:18 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+12:47:18 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+12:47:18 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+12:47:18 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+12:47:18 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+12:47:18 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+12:47:18 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+12:47:18 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+12:47:18 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+12:47:18 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+12:47:18 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+12:47:18 (SW_D) plastics	plastics_pro	plastics_premium 
+12:47:18 (SW_D) plastics_advanced draftsight	draftsightapi	
+12:47:18 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+12:47:18 (SW_D) draftsightdeveloper draftsightpro	visu		
+12:47:18 (SW_D) visupro		visupowerboost	pcb		
+12:47:18 (SW_D) pcbpro		pcbaltium	camassemblies	
+12:47:18 (SW_D) camturning	camconfigs	camadaptive	
+12:47:18 (SW_D) camnceditor	cammillindexing camposting	
+12:47:18 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+12:47:18 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+12:47:18 (SW_D) swepdm_web	swepdm_processor swepm_web	
+12:47:18 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+12:47:18 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+12:47:18 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+12:47:18 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+12:47:18 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+12:47:18 (SW_D) swmechatronicsstd visuboost	
+12:47:18 (SW_D) EXTERNAL FILTERS are OFF
+12:47:18 (lmgrd) SW_D using TCP-port 53769
+12:47:18 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+12:47:18 (SW_D) SLOG: TS update poll interval is 600 seconds.
+12:47:18 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+12:47:18 (SW_D) (@SW_D-SLOG@) ===============================================
+12:47:18 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+12:47:18 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+12:47:18 (SW_D) (@SW_D-SLOG@) Start-Date: Wed Jun 05 2024 12:47:18 India Standard Time
+12:47:18 (SW_D) (@SW_D-SLOG@) PID: 8480
+12:47:18 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+12:47:18 (SW_D) (@SW_D-SLOG@) 
+12:47:18 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+12:47:18 (SW_D) (@SW_D-SLOG@) Options file used: None
+12:47:18 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+12:47:18 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+12:47:18 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+12:47:18 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 13
+12:47:18 (SW_D) (@SW_D-SLOG@) 
+12:47:18 (SW_D) (@SW_D-SLOG@) === Network Info ===
+12:47:18 (SW_D) (@SW_D-SLOG@) Listening port: 53769
+12:47:18 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+12:47:18 (SW_D) (@SW_D-SLOG@) 
+12:47:18 (SW_D) (@SW_D-SLOG@) === Host Info ===
+12:47:18 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+12:47:18 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+12:47:18 (SW_D) (@SW_D-SLOG@) ===============================================
+12:50:17 (SW_D) TCP_NODELAY NOT enabled
+12:50:17 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+16:54:21 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  
+16:54:21 (SW_D) (@SW_D-SLOG@) ===============================================
+16:54:21 (SW_D) (@SW_D-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+16:54:21 (SW_D) (@SW_D-SLOG@) Time: Wed Jun 05 2024 16:54:21 India Standard Time
+16:54:21 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+16:54:21 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 15:00:18 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:54:21 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 14:58:18 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:54:21 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 14:56:18 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:54:21 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 14:54:18 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:54:21 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 14:52:18 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:54:21 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 14:50:18 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:54:21 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 14:48:18 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:54:21 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 14:46:18 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:54:21 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 14:44:18 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:54:21 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 14:42:18 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:54:21 (SW_D) (@SW_D-SLOG@) 
+16:54:21 (SW_D) (@SW_D-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+16:54:21 (SW_D) (@SW_D-SLOG@) Time: Wed Jun 05 2024 16:54:21 India Standard Time
+16:54:21 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+16:54:21 (SW_D) (@SW_D-SLOG@) 00000015 ms at Wed Jun 05 2024 13:00:17 India Standard Time,#3,(5180K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:54:21 (SW_D) (@SW_D-SLOG@) 
+16:54:21 (SW_D) (@SW_D-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+16:54:21 (SW_D) (@SW_D-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+16:54:21 (SW_D) (@SW_D-SLOG@) Time: Wed Jun 05 2024 16:54:21 India Standard Time
+16:54:21 (SW_D) (@SW_D-SLOG@) In-house operation time, when, #concurrent clients
+16:54:21 (SW_D) (@SW_D-SLOG@) 
+16:54:21 (SW_D) (@SW_D-SLOG@) === Active Connections Info ===
+16:54:21 (SW_D) (@SW_D-SLOG@) Peak active connections #3 attempted at Wed Jun 05 2024 12:50:17 India Standard Time
+16:54:21 (SW_D) (@SW_D-SLOG@) 
+16:54:21 (SW_D) (@SW_D-SLOG@) === Memory Usage Info ===
+16:54:21 (SW_D) (@SW_D-SLOG@) Peak private bytes 5420K attempted at Wed Jun 05 2024 12:50:17 India Standard Time
+16:54:21 (SW_D) (@SW_D-SLOG@) ===============================================
+16:54:21 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+16:54:21 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 6818 seconds.
+16:54:21 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+16:54:21 (lmgrd) TIMESTAMP 6/5/2024
+16:54:26 (lmgrd) SW_D exited with status 28 (Communications error)
+16:54:26 (lmgrd) Since this is an unknown status, license server 
+16:54:26 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+16:54:27 (lmgrd) REStarted SW_D (pid 11432)
+16:54:27 (SW_D) Unable to initialize access to trusted storage: 1
+16:54:27 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+16:54:27 (SW_D) SLOG: Summary LOG statistics is enabled.
+16:54:27 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+16:54:27 (SW_D) SLOG: VM Status: 255
+16:54:27 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+16:54:27 (SW_D) swoffice	swofficepro	harnessing	
+16:54:27 (SW_D) photoworks	featureworks	piping		
+16:54:27 (SW_D) animator	toolbox		utilities	
+16:54:27 (SW_D) swofficepremium taskscheduler	dwgeditor	
+16:54:27 (SW_D) swift		designchecker	scanto3d	
+16:54:27 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+16:54:27 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+16:54:27 (SW_D) swsustainability catiatoswtrans	swcosting	
+16:54:27 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+16:54:27 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+16:54:27 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+16:54:27 (SW_D) swlivereporteditor edrw		edrwcore	
+16:54:27 (SW_D) swmbd		swmbd_std	elec2dcore	
+16:54:27 (SW_D) elec2dstd	elec2d		elec3d		
+16:54:27 (SW_D) elecpro		pdmworks	pdmworks_sa	
+16:54:27 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+16:54:27 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+16:54:27 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+16:54:27 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+16:54:27 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+16:54:27 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+16:54:27 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+16:54:27 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+16:54:27 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+16:54:27 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+16:54:27 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+16:54:27 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+16:54:27 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+16:54:27 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+16:54:27 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+16:54:27 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+16:54:27 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+16:54:27 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+16:54:27 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+16:54:27 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+16:54:27 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+16:54:27 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+16:54:27 (SW_D) plastics	plastics_pro	plastics_premium 
+16:54:27 (SW_D) plastics_advanced draftsight	draftsightapi	
+16:54:27 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+16:54:27 (SW_D) draftsightdeveloper draftsightpro	visu		
+16:54:27 (SW_D) visupro		visupowerboost	pcb		
+16:54:27 (SW_D) pcbpro		pcbaltium	camassemblies	
+16:54:27 (SW_D) camturning	camconfigs	camadaptive	
+16:54:27 (SW_D) camnceditor	cammillindexing camposting	
+16:54:27 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+16:54:27 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+16:54:27 (SW_D) swepdm_web	swepdm_processor swepm_web	
+16:54:27 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+16:54:27 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+16:54:27 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+16:54:27 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+16:54:27 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+16:54:27 (SW_D) swmechatronicsstd visuboost	
+16:54:27 (SW_D) EXTERNAL FILTERS are OFF
+16:54:27 (lmgrd) SW_D using TCP-port 57815
+16:54:27 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+16:54:27 (SW_D) SLOG: TS update poll interval is 600 seconds.
+16:54:27 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+16:54:27 (SW_D) (@SW_D-SLOG@) ===============================================
+16:54:27 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+16:54:27 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+16:54:27 (SW_D) (@SW_D-SLOG@) Start-Date: Wed Jun 05 2024 16:54:27 India Standard Time
+16:54:27 (SW_D) (@SW_D-SLOG@) PID: 11432
+16:54:27 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+16:54:27 (SW_D) (@SW_D-SLOG@) 
+16:54:27 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+16:54:27 (SW_D) (@SW_D-SLOG@) Options file used: None
+16:54:27 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+16:54:27 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+16:54:27 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+16:54:27 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 14
+16:54:27 (SW_D) (@SW_D-SLOG@) 
+16:54:27 (SW_D) (@SW_D-SLOG@) === Network Info ===
+16:54:27 (SW_D) (@SW_D-SLOG@) Listening port: 57815
+16:54:27 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+16:54:27 (SW_D) (@SW_D-SLOG@) 
+16:54:27 (SW_D) (@SW_D-SLOG@) === Host Info ===
+16:54:27 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+16:54:27 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+16:54:27 (SW_D) (@SW_D-SLOG@) ===============================================
+16:55:49 (SW_D) TCP_NODELAY NOT enabled
+16:55:49 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+20:42:19 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  
+20:42:19 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+20:42:19 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 7010 seconds.
+20:42:19 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+20:42:19 (lmgrd) SW_D exited with status 28 (Communications error)
+20:42:19 (lmgrd) Since this is an unknown status, license server 
+20:42:19 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+20:42:20 (lmgrd) REStarted SW_D (pid 8936)
+20:42:21 (SW_D) Unable to initialize access to trusted storage: 1
+20:42:21 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+20:42:21 (SW_D) SLOG: Summary LOG statistics is enabled.
+20:42:21 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+20:42:21 (SW_D) SLOG: VM Status: 255
+20:42:21 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+20:42:21 (SW_D) swoffice	swofficepro	harnessing	
+20:42:21 (SW_D) photoworks	featureworks	piping		
+20:42:21 (SW_D) animator	toolbox		utilities	
+20:42:21 (SW_D) swofficepremium taskscheduler	dwgeditor	
+20:42:21 (SW_D) swift		designchecker	scanto3d	
+20:42:21 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+20:42:21 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+20:42:21 (SW_D) swsustainability catiatoswtrans	swcosting	
+20:42:21 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+20:42:21 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+20:42:21 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+20:42:21 (SW_D) swlivereporteditor edrw		edrwcore	
+20:42:21 (SW_D) swmbd		swmbd_std	elec2dcore	
+20:42:21 (SW_D) elec2dstd	elec2d		elec3d		
+20:42:21 (SW_D) elecpro		pdmworks	pdmworks_sa	
+20:42:21 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+20:42:21 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+20:42:21 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+20:42:21 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+20:42:21 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+20:42:21 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+20:42:21 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+20:42:21 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+20:42:21 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+20:42:21 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+20:42:21 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+20:42:21 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+20:42:21 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+20:42:21 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+20:42:21 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+20:42:21 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+20:42:21 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+20:42:21 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+20:42:21 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+20:42:21 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+20:42:21 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+20:42:21 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+20:42:21 (SW_D) plastics	plastics_pro	plastics_premium 
+20:42:21 (SW_D) plastics_advanced draftsight	draftsightapi	
+20:42:21 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+20:42:21 (SW_D) draftsightdeveloper draftsightpro	visu		
+20:42:21 (SW_D) visupro		visupowerboost	pcb		
+20:42:21 (SW_D) pcbpro		pcbaltium	camassemblies	
+20:42:21 (SW_D) camturning	camconfigs	camadaptive	
+20:42:21 (SW_D) camnceditor	cammillindexing camposting	
+20:42:21 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+20:42:21 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+20:42:21 (SW_D) swepdm_web	swepdm_processor swepm_web	
+20:42:21 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+20:42:21 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+20:42:21 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+20:42:21 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+20:42:21 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+20:42:21 (SW_D) swmechatronicsstd visuboost	
+20:42:21 (SW_D) EXTERNAL FILTERS are OFF
+20:42:21 (lmgrd) SW_D using TCP-port 59947
+20:42:22 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+20:42:22 (SW_D) SLOG: TS update poll interval is 600 seconds.
+20:42:22 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+20:42:22 (SW_D) (@SW_D-SLOG@) ===============================================
+20:42:22 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+20:42:22 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+20:42:22 (SW_D) (@SW_D-SLOG@) Start-Date: Wed Jun 05 2024 20:42:22 India Standard Time
+20:42:22 (SW_D) (@SW_D-SLOG@) PID: 8936
+20:42:22 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+20:42:22 (SW_D) (@SW_D-SLOG@) 
+20:42:22 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+20:42:22 (SW_D) (@SW_D-SLOG@) Options file used: None
+20:42:22 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+20:42:22 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+20:42:22 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+20:42:22 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 15
+20:42:22 (SW_D) (@SW_D-SLOG@) 
+20:42:22 (SW_D) (@SW_D-SLOG@) === Network Info ===
+20:42:22 (SW_D) (@SW_D-SLOG@) Listening port: 59947
+20:42:22 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+20:42:22 (SW_D) (@SW_D-SLOG@) 
+20:42:22 (SW_D) (@SW_D-SLOG@) === Host Info ===
+20:42:22 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+20:42:22 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+20:42:22 (SW_D) (@SW_D-SLOG@) ===============================================
+20:44:00 (SW_D) TCP_NODELAY NOT enabled
+20:44:00 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+10:15:56 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  
+10:15:56 (SW_D) (@SW_D-SLOG@) ===============================================
+10:15:56 (SW_D) (@SW_D-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+10:15:56 (SW_D) (@SW_D-SLOG@) Time: Thu Jun 06 2024 10:15:56 India Standard Time
+10:15:56 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+10:15:56 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 22:02:00 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,1104)
+10:15:56 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 22:00:00 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,1104)
+10:15:56 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 21:58:00 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,1104)
+10:15:56 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 21:56:00 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,1104)
+10:15:56 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 21:54:00 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,1104)
+10:15:56 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 21:52:00 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,1104)
+10:15:56 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 21:50:00 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,1104)
+10:15:56 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 21:48:00 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,1104)
+10:15:56 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 21:46:00 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,1104)
+10:15:56 (SW_D) (@SW_D-SLOG@) 00000000 ms at Wed Jun 05 2024 21:44:00 India Standard Time,#3,(5184K),(SYSTEM,LAPTOP-9APT1262,1104)
+10:15:56 (SW_D) (@SW_D-SLOG@) 
+10:15:56 (SW_D) (@SW_D-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+10:15:56 (SW_D) (@SW_D-SLOG@) Time: Thu Jun 06 2024 10:15:56 India Standard Time
+10:15:56 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+10:15:56 (SW_D) (@SW_D-SLOG@) 
+10:15:56 (SW_D) (@SW_D-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+10:15:56 (SW_D) (@SW_D-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+10:15:56 (SW_D) (@SW_D-SLOG@) Time: Thu Jun 06 2024 10:15:56 India Standard Time
+10:15:56 (SW_D) (@SW_D-SLOG@) In-house operation time, when, #concurrent clients
+10:15:56 (SW_D) (@SW_D-SLOG@) 
+10:15:56 (SW_D) (@SW_D-SLOG@) === Active Connections Info ===
+10:15:56 (SW_D) (@SW_D-SLOG@) Peak active connections #3 attempted at Wed Jun 05 2024 20:44:00 India Standard Time
+10:15:56 (SW_D) (@SW_D-SLOG@) 
+10:15:56 (SW_D) (@SW_D-SLOG@) === Memory Usage Info ===
+10:15:56 (SW_D) (@SW_D-SLOG@) Peak private bytes 5492K attempted at Wed Jun 05 2024 20:44:00 India Standard Time
+10:15:56 (SW_D) (@SW_D-SLOG@) ===============================================
+10:15:56 (SW_D) TIMESTAMP 6/6/2024
+10:15:56 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+10:15:56 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 43951 seconds.
+10:15:56 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+10:15:56 (lmgrd) TIMESTAMP 6/6/2024
+10:16:01 (lmgrd) SW_D exited with status 28 (Communications error)
+10:16:01 (lmgrd) Since this is an unknown status, license server 
+10:16:01 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+10:16:02 (lmgrd) REStarted SW_D (pid 19192)
+10:16:02 (SW_D) Unable to initialize access to trusted storage: 1
+10:16:02 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+10:16:02 (SW_D) SLOG: Summary LOG statistics is enabled.
+10:16:02 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+10:16:02 (SW_D) SLOG: VM Status: 255
+10:16:02 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+10:16:02 (SW_D) swoffice	swofficepro	harnessing	
+10:16:02 (SW_D) photoworks	featureworks	piping		
+10:16:02 (SW_D) animator	toolbox		utilities	
+10:16:02 (SW_D) swofficepremium taskscheduler	dwgeditor	
+10:16:02 (SW_D) swift		designchecker	scanto3d	
+10:16:02 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+10:16:02 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+10:16:02 (SW_D) swsustainability catiatoswtrans	swcosting	
+10:16:02 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+10:16:02 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+10:16:02 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+10:16:02 (SW_D) swlivereporteditor edrw		edrwcore	
+10:16:02 (SW_D) swmbd		swmbd_std	elec2dcore	
+10:16:02 (SW_D) elec2dstd	elec2d		elec3d		
+10:16:02 (SW_D) elecpro		pdmworks	pdmworks_sa	
+10:16:02 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+10:16:02 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+10:16:02 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+10:16:02 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+10:16:02 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+10:16:02 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+10:16:02 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+10:16:02 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+10:16:02 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+10:16:02 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+10:16:02 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+10:16:02 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+10:16:02 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+10:16:02 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+10:16:02 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+10:16:02 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+10:16:02 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+10:16:02 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+10:16:02 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+10:16:02 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+10:16:02 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+10:16:02 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+10:16:02 (SW_D) plastics	plastics_pro	plastics_premium 
+10:16:02 (SW_D) plastics_advanced draftsight	draftsightapi	
+10:16:02 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+10:16:02 (SW_D) draftsightdeveloper draftsightpro	visu		
+10:16:02 (SW_D) visupro		visupowerboost	pcb		
+10:16:02 (SW_D) pcbpro		pcbaltium	camassemblies	
+10:16:02 (SW_D) camturning	camconfigs	camadaptive	
+10:16:02 (SW_D) camnceditor	cammillindexing camposting	
+10:16:02 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+10:16:02 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+10:16:02 (SW_D) swepdm_web	swepdm_processor swepm_web	
+10:16:02 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+10:16:02 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+10:16:02 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+10:16:02 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+10:16:02 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+10:16:02 (SW_D) swmechatronicsstd visuboost	
+10:16:02 (SW_D) EXTERNAL FILTERS are OFF
+10:16:02 (lmgrd) SW_D using TCP-port 61162
+10:16:02 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+10:16:02 (SW_D) SLOG: TS update poll interval is 600 seconds.
+10:16:02 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+10:16:02 (SW_D) (@SW_D-SLOG@) ===============================================
+10:16:02 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+10:16:02 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+10:16:02 (SW_D) (@SW_D-SLOG@) Start-Date: Thu Jun 06 2024 10:16:02 India Standard Time
+10:16:02 (SW_D) (@SW_D-SLOG@) PID: 19192
+10:16:02 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+10:16:02 (SW_D) (@SW_D-SLOG@) 
+10:16:02 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+10:16:02 (SW_D) (@SW_D-SLOG@) Options file used: None
+10:16:02 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+10:16:02 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+10:16:02 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+10:16:02 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 16
+10:16:02 (SW_D) (@SW_D-SLOG@) 
+10:16:02 (SW_D) (@SW_D-SLOG@) === Network Info ===
+10:16:02 (SW_D) (@SW_D-SLOG@) Listening port: 61162
+10:16:02 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+10:16:02 (SW_D) (@SW_D-SLOG@) 
+10:16:02 (SW_D) (@SW_D-SLOG@) === Host Info ===
+10:16:02 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+10:16:02 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+10:16:02 (SW_D) (@SW_D-SLOG@) ===============================================
+10:16:14 (SW_D) TCP_NODELAY NOT enabled
+10:16:14 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  
+16:19:07 (SW_D) IN: "visuboost" SYSTEM@LAPTOP-9APT1262  
+16:19:07 (SW_D) (@SW_D-SLOG@) ===============================================
+16:19:07 (SW_D) (@SW_D-SLOG@) === Last 10 Client Requests Processing Time (in ms) ===
+16:19:07 (SW_D) (@SW_D-SLOG@) Time: Thu Jun 06 2024 16:19:07 India Standard Time
+16:19:07 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+16:19:07 (SW_D) (@SW_D-SLOG@) 00000000 ms at Thu Jun 06 2024 11:29:37 India Standard Time,#3,(5168K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:19:07 (SW_D) (@SW_D-SLOG@) 00000000 ms at Thu Jun 06 2024 11:27:37 India Standard Time,#3,(5168K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:19:07 (SW_D) (@SW_D-SLOG@) 00000000 ms at Thu Jun 06 2024 11:25:37 India Standard Time,#3,(5168K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:19:07 (SW_D) (@SW_D-SLOG@) 00000000 ms at Thu Jun 06 2024 11:23:37 India Standard Time,#3,(5168K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:19:07 (SW_D) (@SW_D-SLOG@) 00000000 ms at Thu Jun 06 2024 11:21:37 India Standard Time,#3,(5240K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:19:07 (SW_D) (@SW_D-SLOG@) 00000000 ms at Thu Jun 06 2024 11:19:37 India Standard Time,#3,(5168K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:19:07 (SW_D) (@SW_D-SLOG@) 00000000 ms at Thu Jun 06 2024 11:17:37 India Standard Time,#3,(5168K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:19:07 (SW_D) (@SW_D-SLOG@) 00000000 ms at Thu Jun 06 2024 11:15:37 India Standard Time,#3,(5168K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:19:07 (SW_D) (@SW_D-SLOG@) 00000000 ms at Thu Jun 06 2024 11:13:37 India Standard Time,#3,(5168K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:19:07 (SW_D) (@SW_D-SLOG@) 00000000 ms at Thu Jun 06 2024 11:11:37 India Standard Time,#3,(5168K),(SYSTEM,LAPTOP-9APT1262,1088)
+16:19:07 (SW_D) (@SW_D-SLOG@) 
+16:19:07 (SW_D) (@SW_D-SLOG@) === Top 10 Peak Client Requests Processing Time (in ms) ===
+16:19:07 (SW_D) (@SW_D-SLOG@) Time: Thu Jun 06 2024 16:19:07 India Standard Time
+16:19:07 (SW_D) (@SW_D-SLOG@) Request processing time, when, #concurrent clients, (private bytes (in KB)), client info (user, node, FD)
+16:19:07 (SW_D) (@SW_D-SLOG@) 
+16:19:07 (SW_D) (@SW_D-SLOG@) === Top 10 Peak In-house Operations time (in ms) ===
+16:19:07 (SW_D) (@SW_D-SLOG@) NOTE: Peak times greater than 4 seconds get recorded.
+16:19:07 (SW_D) (@SW_D-SLOG@) Time: Thu Jun 06 2024 16:19:07 India Standard Time
+16:19:07 (SW_D) (@SW_D-SLOG@) In-house operation time, when, #concurrent clients
+16:19:07 (SW_D) (@SW_D-SLOG@) 
+16:19:07 (SW_D) (@SW_D-SLOG@) === Active Connections Info ===
+16:19:07 (SW_D) (@SW_D-SLOG@) Peak active connections #3 attempted at Thu Jun 06 2024 10:16:14 India Standard Time
+16:19:07 (SW_D) (@SW_D-SLOG@) 
+16:19:07 (SW_D) (@SW_D-SLOG@) === Memory Usage Info ===
+16:19:07 (SW_D) (@SW_D-SLOG@) Peak private bytes 5544K attempted at Thu Jun 06 2024 10:18:12 India Standard Time
+16:19:07 (SW_D) (@SW_D-SLOG@) ===============================================
+16:19:07 (SW_D) Lost connection to lmgrd, heartbeat timeout expired, exiting.
+16:19:07 (SW_D) Heartbeat timeout is 300 seconds. Elapsed time is 17375 seconds.
+16:19:07 (SW_D) EXITING DUE TO SIGNAL 28 Exit reason 5
+16:19:07 (lmgrd) TIMESTAMP 6/6/2024
+16:19:12 (lmgrd) SW_D exited with status 28 (Communications error)
+16:19:12 (lmgrd) Since this is an unknown status, license server 
+16:19:12 (lmgrd) manager (lmgrd) will attempt to re-start the vendor daemon.
+16:19:13 (lmgrd) REStarted SW_D (pid 12548)
+16:19:13 (SW_D) Unable to initialize access to trusted storage: 1
+16:19:13 (SW_D) FlexNet Licensing version v11.14.1.3 build 212549 i86_n3
+16:19:13 (SW_D) SLOG: Summary LOG statistics is enabled.
+16:19:13 (SW_D) SLOG: FNPLS-INTERNAL-CKPT1
+16:19:13 (SW_D) SLOG: VM Status: 255
+16:19:13 (SW_D) Server started on LAPTOP-9APT1262 for:	solidworks	
+16:19:13 (SW_D) swoffice	swofficepro	harnessing	
+16:19:13 (SW_D) photoworks	featureworks	piping		
+16:19:13 (SW_D) animator	toolbox		utilities	
+16:19:13 (SW_D) swofficepremium taskscheduler	dwgeditor	
+16:19:13 (SW_D) swift		designchecker	scanto3d	
+16:19:13 (SW_D) tolanalyst	snlcore		swofficepremium_cwpro 
+16:19:13 (SW_D) swofficepremium_cwadvpro circuitworks	photoviewcore	
+16:19:13 (SW_D) swsustainability catiatoswtrans	swcosting	
+16:19:13 (SW_D) swbackcomp	routingelec	swmodelbreakview 
+16:19:13 (SW_D) swradialexplode swchainstepexplode swflatteneverything 
+16:19:13 (SW_D) swcostingasm	dimxpertasm	sw3dpdf		
+16:19:13 (SW_D) swlivereporteditor edrw		edrwcore	
+16:19:13 (SW_D) swmbd		swmbd_std	elec2dcore	
+16:19:13 (SW_D) elec2dstd	elec2d		elec3d		
+16:19:13 (SW_D) elecpro		pdmworks	pdmworks_sa	
+16:19:13 (SW_D) pdmworks_as	sw3dinteropcatia swcomparepmi	
+16:19:13 (SW_D) cae_cwcore	cae_cwadvpro	cae_cosmosmotioncore 
+16:19:13 (SW_D) cae_cosmosmotion cae_cosmosfloworkscore cae_cosmosfloworkspe 
+16:19:13 (SW_D) cae_cosmosfloworks_hvac cae_cosmosfloworks_elec cae_cosmosfloworkspro 
+16:19:13 (SW_D) cae_cosmosfloworksadvpro cae_cosmosfloworks_rot swcomposer	
+16:19:13 (SW_D) swcomposer_publisher swcomposer_animationpublisher swcomposer_kinematicpublisher 
+16:19:13 (SW_D) swcomposer_syncfullmaintenance swcomposer_pathplanning swcomposer_publishpdf 
+16:19:13 (SW_D) swcomposer_clashrt swcomposer_vectorizationsync swcomposer_acis 
+16:19:13 (SW_D) swcomposer_iges swcomposer_step swcomposer_proe 
+16:19:13 (SW_D) swcomposer_vdafs swcomposer_cgm	swcomposer_cg	
+16:19:13 (SW_D) swcomposer_catiav4 swcomposer_catiav4pipe swcomposer_catiav5 
+16:19:13 (SW_D) swcomposer_catiav5cgr swcomposer_catiav5fta swcomposer_playerexchange 
+16:19:13 (SW_D) swcomposer_geometrypublisher swcomposer_templatepublisher swcomposer_highrespublisher 
+16:19:13 (SW_D) swcomposer_rightmanager swcomposer_playerintegration swcomposer_secure3d 
+16:19:13 (SW_D) swcomposer_connect swcomposer_catiav52d swcomposer_catiav42d 
+16:19:13 (SW_D) swcomposer_parasolid swcomposer_ug	swcomposer_inventor 
+16:19:13 (SW_D) swcomposer_jtexport swcomposer_jtimport swcomposer_cadds 
+16:19:13 (SW_D) swcomposer_jtimportfta swcomposer_syncenterprise swcomposer_check 
+16:19:13 (SW_D) swcomposer_playerpro swinspection	swinspection_pdf 
+16:19:13 (SW_D) swinspection_sw swinspection_cmm swinspection_measure 
+16:19:13 (SW_D) swinspection_std swinspection_pro swinspection_3dpdf 
+16:19:13 (SW_D) swinspection_pdf_2dimport swinspection_pdf_3dimport swinspection_sw_3dimport 
+16:19:13 (SW_D) plastics	plastics_pro	plastics_premium 
+16:19:13 (SW_D) plastics_advanced draftsight	draftsightapi	
+16:19:13 (SW_D) draftsightpremium draftsightcampus draftsightclass 
+16:19:13 (SW_D) draftsightdeveloper draftsightpro	visu		
+16:19:13 (SW_D) visupro		visupowerboost	pcb		
+16:19:13 (SW_D) pcbpro		pcbaltium	camassemblies	
+16:19:13 (SW_D) camturning	camconfigs	camadaptive	
+16:19:13 (SW_D) camnceditor	cammillindexing camposting	
+16:19:13 (SW_D) campro		swepdm_cadeditor swepdm_cadeditorandweb 
+16:19:13 (SW_D) swepdm_contributor swepdm_contributorandweb swepdm_viewer	
+16:19:13 (SW_D) swepdm_web	swepdm_processor swepm_web	
+16:19:13 (SW_D) swepdm		swpdmstd_cadeditor swpdmstd_contributor 
+16:19:13 (SW_D) swpdmstd_viewer swmanage	swmanagefull	
+16:19:13 (SW_D) swmanageview	swmanagepro_editor swmanagepro_contributor 
+16:19:13 (SW_D) swmanagepro_viewer swmanagepro_processor swmanageswaddin 
+16:19:13 (SW_D) camcore		swdesigntomanufacturing swmechatronicspro 
+16:19:13 (SW_D) swmechatronicsstd visuboost	
+16:19:13 (SW_D) EXTERNAL FILTERS are OFF
+16:19:13 (lmgrd) SW_D using TCP-port 64005
+16:19:13 (SW_D) SLOG: Statistics Log Frequency is 240 minute(s).
+16:19:13 (SW_D) SLOG: TS update poll interval is 600 seconds.
+16:19:13 (SW_D) SLOG: Activation borrow reclaim percentage is 0.
+16:19:13 (SW_D) (@SW_D-SLOG@) ===============================================
+16:19:13 (SW_D) (@SW_D-SLOG@) === Vendor Daemon ===
+16:19:13 (SW_D) (@SW_D-SLOG@) Vendor daemon: SW_D
+16:19:13 (SW_D) (@SW_D-SLOG@) Start-Date: Thu Jun 06 2024 16:19:13 India Standard Time
+16:19:13 (SW_D) (@SW_D-SLOG@) PID: 12548
+16:19:13 (SW_D) (@SW_D-SLOG@) VD Version: v11.14.1.3 build 212549 i86_n3 ( build 212549 (ipv6))
+16:19:13 (SW_D) (@SW_D-SLOG@) 
+16:19:13 (SW_D) (@SW_D-SLOG@) === Startup/Restart Info ===
+16:19:13 (SW_D) (@SW_D-SLOG@) Options file used: None
+16:19:13 (SW_D) (@SW_D-SLOG@) Is vendor daemon a CVD: No
+16:19:13 (SW_D) (@SW_D-SLOG@) Is TS accessed: No
+16:19:13 (SW_D) (@SW_D-SLOG@) TS accessed for feature load: -NA-
+16:19:13 (SW_D) (@SW_D-SLOG@) Number of VD restarts since LS startup: 17
+16:19:13 (SW_D) (@SW_D-SLOG@) 
+16:19:13 (SW_D) (@SW_D-SLOG@) === Network Info ===
+16:19:13 (SW_D) (@SW_D-SLOG@) Listening port: 64005
+16:19:13 (SW_D) (@SW_D-SLOG@) Daemon select timeout (in seconds): 1
+16:19:13 (SW_D) (@SW_D-SLOG@) 
+16:19:13 (SW_D) (@SW_D-SLOG@) === Host Info ===
+16:19:13 (SW_D) (@SW_D-SLOG@) Host used in license file: LAPTOP-9APT1262
+16:19:13 (SW_D) (@SW_D-SLOG@) Running on Hypervisor: None (Physical)
+16:19:13 (SW_D) (@SW_D-SLOG@) ===============================================
+16:20:49 (SW_D) TCP_NODELAY NOT enabled
+16:20:49 (SW_D) OUT: "visuboost" SYSTEM@LAPTOP-9APT1262  

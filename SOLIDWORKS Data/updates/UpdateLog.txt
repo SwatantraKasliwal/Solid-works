@@ -1,0 +1,24 @@
+08-05-2021 13:37:45: ################################
+08-05-2021 13:37:45: Starting update
+08-05-2021 13:37:45: Toolbox update folder: C:\SOLIDWORKS Data\updates\
+08-05-2021 13:37:45: Toolbox folder: C:\SOLIDWORKS Data\
+08-05-2021 13:37:45: Installation Media Location: E:\\Toolbox\
+08-05-2021 13:37:45: Database: C:\SOLIDWORKS Data\lang\english\swbrowser.sldedb
+08-05-2021 13:37:45: Run from IM: True
+08-05-2021 13:37:45: Processing: 1600_Install Ansi Inch.tbox
+08-05-2021 13:37:47: Processing: 1600_Install Ansi Metric.tbox
+08-05-2021 13:37:48: Processing: 1600_Install AS.tbox
+08-05-2021 13:37:48: Processing: 1600_Install BSI.tbox
+08-05-2021 13:37:49: Processing: 1600_Install CISC.tbox
+08-05-2021 13:37:49: Processing: 1600_Install DIN.tbox
+08-05-2021 13:37:50: Processing: 1600_Install GB.tbox
+08-05-2021 13:37:53: Processing: 1600_Install IS.tbox
+08-05-2021 13:37:54: Processing: 1600_Install ISO.tbox
+08-05-2021 13:37:54: Processing: 1600_Install JIS.tbox
+08-05-2021 13:37:56: Processing: 1600_Install KS.tbox
+08-05-2021 13:37:57: Processing: 1600_Install MIL.tbox
+08-05-2021 13:37:58: Processing: 1600_Install SKF.tbox
+08-05-2021 13:37:58: Processing: 1600_Install Torrington Inch.tbox
+08-05-2021 13:37:58: Processing: 1600_Install Torrington Metric.tbox
+08-05-2021 13:37:58: Processing: 1600_Install Truarc.tbox
+08-05-2021 13:37:58: Processing: 1600_Install Unistrut.tbox
